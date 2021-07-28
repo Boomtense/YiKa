@@ -126,7 +126,7 @@ class MySlideShow(tk.Toplevel):
         for yin in pinyin_list:
             has_tone = False
             if "r5" in yin:
-                output += yin.replace("r5", "er")
+                output += yin.replace("r5", "er").replace("5")
                 continue
 
             for num in ["1", "2", "3", "4"]:
