@@ -5,6 +5,7 @@ import math
 import random
 import xml.etree.ElementTree as ET
 from typing import List
+import csv
 
 
 class Language:
@@ -163,6 +164,28 @@ class Spanish(Language):
         letter_group = random.choice(root)
         word = random.choice(letter_group)
         return word[0].text, word[1].text, word[2].text
+
+
+class Japanese(Language):
+    def __init__(self) -> None:
+        super().__init__()
+        csv_file = open("heisig-kanjis.csv", "r", encoding="utf8")
+        source = csv.DictReader(csv_file, delimiter=",")
+        reader = source.reader
+        self.definitions: List[str] = []
+        self.definitions.extend(reader)
+
+    def get_definition(self) -> List[str]:
+        kanji, english, components, on_reading, kun_reading = random.choice(self.definitions)
+        pronunciation = ''
+        if kun_reading and on_reading:
+            pronunciation = f'kun: {kun_reading}, \non: {on_reading}'
+        elif kun_reading:
+            pronunciation = f'kun: {kun_reading}'
+        elif on_reading:
+            pronunciation = f'on: {on_reading}'
+            
+        return kanji, pronunciation, english
 
 
 class HiddenRoot(tk.Tk):
