@@ -44,6 +44,8 @@ class MySlideShow(tk.Toplevel):
         image = Image.new("RGB", (scr_w, scr_h), color=(73, 109, 137))
         unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype("NotoSerifCJKjp-ExtraLight.otf", 250)
         d = ImageDraw.Draw(image)
+        if unicode_font.getsize(character)[0] >= scr_w * 0.95:
+            unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype("NotoSerifCJKjp-ExtraLight.otf", 200)
         lang_w, lang_h = unicode_font.getsize(character)
 
         d.text(
@@ -123,12 +125,8 @@ class Mandarin(Language):
         pinyin: str = character_pinyin[pinyin_start:-1]
         english: str = split_definition[1]
         characters = double_character.split()
-        character = characters[0]
-        if characters[0] != characters[1]:
-            if len(characters[0]) > 5:
-                character = characters[0] + " /\n" + " " * math.floor(len(characters[0]) * 1.5) + characters[1]
-            else:
-                character = characters[0] + " /  " + characters[1]
+        character = characters[1]
+
         return character, self.parse_pinyin(pinyin), self.parse_pinyin(english)
 
     def parse_pinyin(self, pinyin: str) -> str:
