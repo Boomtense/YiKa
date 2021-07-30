@@ -38,15 +38,35 @@ class MySlideShow(tk.Toplevel):
         self.after(delay * 1000, self.startSlideShow)
 
     def showImage(self):
-        character, pronunciation, translation = self.lang.get_definition()
+        character, pronunciation, english = self.lang.get_definition()
 
         scr_w, scr_h = self.winfo_screenwidth(), self.winfo_screenheight()
         image = Image.new("RGB", (scr_w, scr_h), color=(73, 109, 137))
-        unicode_font = ImageFont.truetype("unifont-13.0.06.ttf", 65)
+        unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype("NotoSerifCJKjp-ExtraLight.otf", 250)
         d = ImageDraw.Draw(image)
+        lang_w, lang_h = unicode_font.getsize(character)
+
         d.text(
-            (50, scr_h - 440),
-            character + "\n" + pronunciation + "\n" + "\n".join(textwrap.wrap(translation, width=70)),
+            ((scr_w - lang_w) / 2, (scr_h - lang_h - unicode_font.getoffset(character)[1]) / 2),
+            character.title(),
+            fill=(255, 255, 0),
+            font=unicode_font,
+        )
+
+        unicode_font = ImageFont.truetype("NotoSerifCJKjp-ExtraLight.otf", 50)
+        english_w, english_h = unicode_font.getsize(english)
+        d.text(
+            ((scr_w - english_w) / 2, (scr_h + lang_h - unicode_font.getoffset(english)[1]) / 2),
+            english.title(),
+            fill=(255, 255, 0),
+            font=unicode_font,
+        )
+
+        unicode_font = ImageFont.truetype("NotoSerifCJKjp-ExtraLight.otf", 40)
+        pronunciation_w, pronunciation_h = unicode_font.getsize(pronunciation)
+        d.text(
+            ((scr_w - pronunciation_w) / 2, (scr_h - lang_h) / 2 - pronunciation_h),
+            pronunciation.title(),
             fill=(255, 255, 0),
             font=unicode_font,
         )
@@ -163,7 +183,7 @@ class Spanish(Language):
         root = self.source.getroot()
         letter_group = random.choice(root)
         word = random.choice(letter_group)
-        return word[0].text, word[1].text, word[2].text
+        return word[0].text, word[2].text, word[1].text
 
 
 class Japanese(Language):
@@ -177,15 +197,16 @@ class Japanese(Language):
 
     def get_definition(self) -> List[str]:
         kanji, english, components, on_reading, kun_reading = random.choice(self.definitions)
-        pronunciation = ''
-        if kun_reading and on_reading:
-            pronunciation = f'kun: {kun_reading}, \non: {on_reading}'
-        elif kun_reading:
-            pronunciation = f'kun: {kun_reading}'
-        elif on_reading:
-            pronunciation = f'on: {on_reading}'
-            
-        return kanji, pronunciation, english
+
+        # TODO: format both readings so that it doesn't look horrible on screen
+        # if kun_reading and on_reading:
+        #    pronunciation = f"くん: {kun_reading}, おん: {on_reading}"
+        # elif kun_reading:
+        #    pronunciation = f"くん: {kun_reading}"
+        # elif on_reading:
+        #    pronunciation = f"おん: {on_reading}"
+
+        return kanji, (kun_reading if kun_reading else on_reading), english
 
 
 class HiddenRoot(tk.Tk):
