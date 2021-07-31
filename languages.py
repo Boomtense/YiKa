@@ -68,14 +68,11 @@ class Mandarin(Language):
         pinyin_list: List[str] = second_part.split()
         output: str = first_part
         has_tone: bool = False
+
         for yin in pinyin_list:
             has_tone = False
-            if "r5" in yin:
-                output += yin.replace("r5", "er").replace("5", "")
-                continue
 
             for num in ["1", "2", "3", "4"]:
-
                 if not (num in yin):
                     continue
                 has_tone = True
@@ -83,13 +80,14 @@ class Mandarin(Language):
                     if vowel in yin:
                         output += (
                             yin.replace("5", "")
+                            .replace("r5", "er")
                             .replace(num, "")
                             .replace(vowel, self.tones[ord(self.priority(vowel)) + int(num)])
                             + " "
                         )
                         break
             if not has_tone:
-                output += yin + " "
+                output += yin.replace("r5", "er").replace("5", "") + " "
 
         return output
 
