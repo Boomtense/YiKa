@@ -2,6 +2,15 @@ import tkinter as tk
 from PIL import Image, ImageDraw, ImageFont, ImageTk
 from languages import Language, Cantonese, Mandarin, Japanese, Spanish
 import textwrap
+import sys
+import os
+import argparse
+
+dirname = os.path.dirname(__file__)
+font_dir = os.path.join(dirname, "fonts")
+
+# ISO_639-3 language abbreviations https://en.wikipedia.org/wiki/ISO_639-3
+LANGUAGES = {"cmn": Mandarin, "jpn": Japanese, "spa": Spanish, "yue": Cantonese}
 
 
 class MySlideShow(tk.Toplevel):
@@ -26,7 +35,7 @@ class MySlideShow(tk.Toplevel):
         self.after(delay * 1000, self.startSlideShow)
 
     def showImage(self):
-        font_family = "fonts/NotoSerifCJKjp-hinted/NotoSerifCJKjp-ExtraLight.otf"
+        font_family = os.path.join(font_dir, "NotoSerifCJKjp-hinted", "NotoSerifCJKjp-ExtraLight.otf")
         character, pronunciation, english = self.lang.get_definition()
 
         scr_w, scr_h = self.winfo_screenwidth(), self.winfo_screenheight()
@@ -84,7 +93,20 @@ class HiddenRoot(tk.Tk):
         self.window.startSlideShow()
 
 
-slideShow = HiddenRoot()
-slideShow.start_slideshow(Cantonese())
-slideShow.bind("<Escape>", lambda e: slideShow.destroy())  # exit on esc
-slideShow.mainloop()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="X to Eng slideshow")
+    parser.add_argument("--lang", metavar="language", type=str, nargs="?", help="the language whatever")
+    args = parser.parse_args()
+    iso_id = args.lang
+
+    if iso_id == None:
+        print("cmn - Mandarin\njpn - Japanese\nspa - Spanish\nyue - Cantonese\n")
+        iso_id = input("Enter language code:\n")
+
+    iso_id = iso_id.lower()
+
+    if iso_id in LANGUAGES.keys():
+        slideShow = HiddenRoot()
+        slideShow.start_slideshow(LANGUAGES[iso_id]())
+        slideShow.bind("<Escape>", lambda e: slideShow.destroy())  # exit on esc
+        slideShow.mainloop()

@@ -2,6 +2,14 @@ import random
 import xml.etree.ElementTree as ET
 from typing import List
 import csv
+import os
+
+dirname = os.path.dirname(__file__)
+foldername = os.path.join(dirname, "translations")
+
+
+def get_file_path(filename: str):
+    return os.path.join(foldername, filename)
 
 
 class Language:
@@ -15,10 +23,11 @@ class Language:
 class Cantonese(Language):
     def __init__(self) -> None:
         super().__init__()
-        self.source = open("translations/cantonese.txt", "r", encoding="utf8")
-        for _ in range(12):
-            self.source.readline()
-        self.definitions = self.source.readlines()
+
+        with open(get_file_path("cantonese.txt"), "r", encoding="utf8") as source:
+            for _ in range(12):
+                source.readline()
+            self.definitions = source.readlines()
 
     def parse_definition(self, definition: str) -> List[str]:
         split_definition: str = definition.split("/")
@@ -39,39 +48,41 @@ class Cantonese(Language):
 
 
 class Mandarin(Language):
+    tones = {
+        # a
+        98: "\u0101",
+        99: "\u00E1",
+        100: "\u01CE",
+        101: "\u00E0",
+        # e
+        102: "\u0113",
+        103: "\u00E9",
+        104: "\u011B",
+        105: "\u00E8",
+        # i
+        106: "\u012B",
+        107: "\u00ED",
+        108: "\u01D0",
+        109: "\u00EC",
+        # o
+        112: "\u014D",
+        113: "\u00F3",
+        114: "\u01D2",
+        115: "\u00F2",
+        # u
+        118: "\u016B",
+        119: "\u00FA",
+        120: "\u01D4",
+        121: "\u00F9",
+    }
+
     def __init__(self) -> None:
         super().__init__()
-        self.source = open("translations/mandarin.txt", "r", encoding="utf8")
-        for _ in range(30):
-            self.source.readline()
-        self.definitions = self.source.readlines()
-        self.tones = {
-            # a
-            98: "\u0101",
-            99: "\u00E1",
-            100: "\u01CE",
-            101: "\u00E0",
-            # e
-            102: "\u0113",
-            103: "\u00E9",
-            104: "\u011B",
-            105: "\u00E8",
-            # i
-            106: "\u012B",
-            107: "\u00ED",
-            108: "\u01D0",
-            109: "\u00EC",
-            # o
-            112: "\u014D",
-            113: "\u00F3",
-            114: "\u01D2",
-            115: "\u00F2",
-            # u
-            118: "\u016B",
-            119: "\u00FA",
-            120: "\u01D4",
-            121: "\u00F9",
-        }
+
+        with open(get_file_path("mandarin.txt"), "r", encoding="utf8") as source:
+            for _ in range(30):
+                source.readline()
+            self.definitions = source.readlines()
 
     def parse_definition(self, definition: str) -> List[str]:
         split_definition: str = definition.split("/")
@@ -108,7 +119,7 @@ class Mandarin(Language):
                             yin.replace("5", "")
                             .replace("r5", "er")
                             .replace(num, "")
-                            .replace(vowel, self.tones[ord(self.priority(vowel)) + int(num)])
+                            .replace(vowel, Mandarin.tones[ord(self.priority(vowel)) + int(num)])
                             + " "
                         )
                         break
@@ -129,7 +140,7 @@ class Mandarin(Language):
 class Spanish(Language):
     def __init__(self) -> None:
         super().__init__()
-        self.source = ET.parse("translations/es-en.xml")
+        self.source = ET.parse(get_file_path("es-en.xml"))
 
     def get_definition(self) -> List[str]:
         root = self.source.getroot()
@@ -141,11 +152,12 @@ class Spanish(Language):
 class Japanese(Language):
     def __init__(self) -> None:
         super().__init__()
-        csv_file = open("translations/heisig-kanjis.csv", "r", encoding="utf8")
-        source = csv.DictReader(csv_file, delimiter=",")
-        reader = source.reader
-        self.definitions: List[str] = []
-        self.definitions.extend(reader)
+
+        with open(get_file_path("heisig-kanjis.csv"), "r", encoding="utf8") as csv_file:
+            source = csv.DictReader(csv_file, delimiter=",")
+            reader = source.reader
+            self.definitions: List[str] = []
+            self.definitions.extend(reader)
 
     def get_definition(self) -> List[str]:
         kanji, english, components, on_reading, kun_reading = random.choice(self.definitions)
