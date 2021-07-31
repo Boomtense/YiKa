@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageDraw, ImageFont, ImageTk
-from languages import Language, Mandarin, Japanese, Spanish
+from languages import Language, Cantonese, Mandarin, Japanese, Spanish
 import textwrap
 
 
@@ -85,6 +85,6 @@ class HiddenRoot(tk.Tk):
 
 
 slideShow = HiddenRoot()
-slideShow.start_slideshow(Mandarin())
+slideShow.start_slideshow(Cantonese())
 slideShow.bind("<Escape>", lambda e: slideShow.destroy())  # exit on esc
 slideShow.mainloop()

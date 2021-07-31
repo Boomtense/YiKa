@@ -12,6 +12,32 @@ class Language:
         return ["nothing", "at", "all"]
 
 
+class Cantonese(Language):
+    def __init__(self) -> None:
+        super().__init__()
+        self.source = open("translations/cantonese.txt", "r", encoding="utf8")
+        for _ in range(12):
+            self.source.readline()
+        self.definitions = self.source.readlines()
+
+    def parse_definition(self, definition: str) -> List[str]:
+        split_definition: str = definition.split("/")
+        characters_pinyin_jyutping: str = split_definition[0]
+        jyutping_start: str = characters_pinyin_jyutping.find("{")
+        characters_pinyin: str = characters_pinyin_jyutping[: jyutping_start - 1]
+        jyutping: str = characters_pinyin_jyutping[jyutping_start:-1]
+        english: str = split_definition[1]
+        character = characters_pinyin.split()[0]
+
+        return character, self.parse_jyutping(jyutping), self.parse_jyutping(english)
+
+    def parse_jyutping(self, jyutping: str) -> str:
+        return jyutping.replace("{", "}").replace("}", "")
+
+    def get_definition(self) -> List[str]:
+        return self.parse_definition(random.choice(self.definitions))
+
+
 class Mandarin(Language):
     def __init__(self) -> None:
         super().__init__()
