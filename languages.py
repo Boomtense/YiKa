@@ -158,6 +158,7 @@ class Japanese(Language):
             reader = source.reader
             self.definitions: List[str] = []
             self.definitions.extend(reader)
+            self.definitions.pop(0)
 
     def get_definition(self) -> List[str]:
         kanji, english, components, on_reading, kun_reading = random.choice(self.definitions)
@@ -171,3 +172,24 @@ class Japanese(Language):
         #    pronunciation = f"おん: {on_reading}"
 
         return kanji, (kun_reading if kun_reading else on_reading), english
+
+
+class Russian(Language):
+    def __init__(self) -> None:
+        super().__init__()
+
+        with open(get_file_path("russian_nouns.csv"), encoding="utf8") as csv_file:
+            source = csv.DictReader(csv_file, delimiter="\t")
+            reader = source.reader
+            self.definitions: List[str] = []
+            self.definitions.extend(reader)
+            self.definitions.pop(0)
+
+    def get_definition(self) -> List[str]:
+        rus, _, eng, _, gender = random.choice(self.definitions)[:5]
+
+        # TODO:
+        # make it so that we see all variants of a word (gender + partner)
+        # think about adding some of the extra info the data set provides
+
+        return rus, "{%s}" % gender, eng
