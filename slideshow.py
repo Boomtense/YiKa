@@ -13,15 +13,15 @@ font_dir = os.path.join(dirname, "fonts")
 LANGUAGES = {"cmn": Mandarin, "jpn": Japanese, "spa": Spanish, "yue": Cantonese}
 
 
-class MySlideShow(tk.Toplevel):
+class MySlideShow(tk.Tk):
     def __init__(self, lang: Language, *args, **kwargs):
-        tk.Toplevel.__init__(self, *args, **kwargs)
-        # remove window decorations
-        self.overrideredirect(True)
+        tk.Tk.__init__(self, *args, **kwargs)
 
-        # save reference to photo so that garbage collection
-        # does not clear image variable in show_image()
-        self.persistent_image = None
+        self.is_fullscreen: bool = True
+        self.overrideredirect(self.is_fullscreen)
+
+        self.image_stack = []
+        self.pointer = -1
 
         # used to display as background image
         self.label = tk.Label(self)
@@ -29,15 +29,48 @@ class MySlideShow(tk.Toplevel):
 
         self.lang = lang
 
-    def startSlideShow(self, delay: int = 10):  # delay in seconds
-        self.showImage()
-        # its like a callback function after n seconds (cycle through pics)
-        self.after(delay * 1000, self.startSlideShow)
+        self.bind("<Escape>", lambda: self.destroy())
+        self.bind("f", lambda: self.toggle_fullscreen())
+        self.bind("<Right>", lambda: self.nextImage())
+        self.bind("<Left>", lambda: self.prevImage())
+        self.bind("<space>", lambda: self.stopSlideshow() if self.is_active else self.startSlideShow())
+
+        self.delay = 3
 
     def showImage(self):
-        font_family = os.path.join(font_dir, "NotoSerifCJKjp-hinted", "NotoSerifCJKjp-ExtraLight.otf")
-        character, pronunciation, english = self.lang.get_definition()
+        self.label.configure(image=self.image_stack[self.pointer])
 
+    def prevImage(self):
+        if hasattr(self, "next"):
+            self.after_cancel(self.next)
+        if self.pointer + len(self.image_stack) > 0:
+            self.pointer -= 1
+
+        self.showImage()
+        self.next = self.after(self.delay * 1000, self.nextImage)
+
+    def nextImage(self):
+        if hasattr(self, "next"):
+            self.after_cancel(self.next)
+        if self.pointer == -1:
+            character, pronunciation, english = self.lang.get_definition()
+            self.generateImage(character, pronunciation, english)
+        else:
+            self.pointer += 1
+        self.showImage()
+        self.next = self.after(self.delay * 1000, self.nextImage)
+
+    def startSlideShow(self):  # delay in seconds
+        self.is_active = True
+        self.nextImage()
+
+    def stopSlideshow(self):
+        if hasattr(self, "next"):
+            self.after_cancel(self.next)
+        self.is_active = False
+
+    def generateImage(self, character, pronunciation, english):
+        font_family = os.path.join(font_dir, "NotoSerifCJKjp-hinted", "NotoSerifCJKjp-ExtraLight.otf")
         scr_w, scr_h = self.winfo_screenwidth(), self.winfo_screenheight()
         image = Image.new("RGB", (scr_w, scr_h), color=(73, 109, 137))
         unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype(font_family, 250)
@@ -75,22 +108,11 @@ class MySlideShow(tk.Toplevel):
         # removes the border on the image
         self.wm_geometry("{}x{}+{}+{}".format(scr_w, scr_h, 0, 0))
 
-        # create new image
-        self.persistent_image = ImageTk.PhotoImage(image)
-        self.label.configure(image=self.persistent_image)
+        self.image_stack.append(ImageTk.PhotoImage(image))
 
-
-class HiddenRoot(tk.Tk):
-    def __init__(self):
-        tk.Tk.__init__(self)
-        # hackish way, essentially makes root window
-        # as small as possible but still "focused"
-        # enabling us to use the binding on <esc>
-        self.wm_geometry("0x0+0+0")
-
-    def start_slideshow(self, lang: Language) -> None:
-        self.window = MySlideShow(lang, self)
-        self.window.startSlideShow()
+    def toggle_fullscreen(self):
+        self.is_fullscreen = not self.is_fullscreen
+        self.overrideredirect(self.is_fullscreen)
 
 
 if __name__ == "__main__":
@@ -106,7 +128,6 @@ if __name__ == "__main__":
     iso_id = iso_id.lower()
 
     if iso_id in LANGUAGES.keys():
-        slideShow = HiddenRoot()
-        slideShow.start_slideshow(LANGUAGES[iso_id]())
-        slideShow.bind("<Escape>", lambda e: slideShow.destroy())  # exit on esc
-        slideShow.mainloop()
+        window = MySlideShow(LANGUAGES[iso_id]())
+        window.startSlideShow()
+        window.mainloop()
