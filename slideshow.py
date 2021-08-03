@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageDraw, ImageFont, ImageTk
-from languages import Language, Cantonese, Mandarin, Japanese, Spanish
+from languages import Language, Cantonese, Mandarin, Japanese, Russian, Spanish
 import textwrap
 import sys
 import os
@@ -10,7 +10,7 @@ dirname = os.path.dirname(__file__)
 font_dir = os.path.join(dirname, "fonts")
 
 # ISO_639-3 language abbreviations https://en.wikipedia.org/wiki/ISO_639-3
-LANGUAGES = {"cmn": Mandarin, "jpn": Japanese, "spa": Spanish, "yue": Cantonese}
+LANGUAGES = {"cmn": Mandarin, "jpn": Japanese, "rus": Russian, "spa": Spanish, "yue": Cantonese}
 
 
 class MySlideShow(tk.Tk):
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     iso_id = args.lang
 
     if iso_id == None:
-        print("cmn - Mandarin\njpn - Japanese\nspa - Spanish\nyue - Cantonese\n")
+        print("cmn - Mandarin\njpn - Japanese\nrus - Russian\nspa - Spanish\nyue - Cantonese\n")
         iso_id = input("Enter language code:\n")
 
     iso_id = iso_id.lower()
