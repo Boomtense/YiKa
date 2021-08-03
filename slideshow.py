@@ -29,13 +29,13 @@ class MySlideShow(tk.Tk):
 
         self.lang = lang
 
-        self.bind("<Escape>", lambda: self.destroy())
-        self.bind("f", lambda: self.toggle_fullscreen())
-        self.bind("<Right>", lambda: self.nextImage())
-        self.bind("<Left>", lambda: self.prevImage())
-        self.bind("<space>", lambda: self.stopSlideshow() if self.is_active else self.startSlideShow())
+        self.bind("<Escape>", lambda e: self.destroy())
+        self.bind("f", lambda e: self.toggle_fullscreen())
+        self.bind("<Right>", lambda e: self.nextImage())
+        self.bind("<Left>", lambda e: self.prevImage())
+        self.bind("<space>", lambda e: self.stopSlideshow() if self.is_active else self.startSlideShow())
 
-        self.delay = 3
+        self.delay = 10
 
     def showImage(self):
         self.label.configure(image=self.image_stack[self.pointer])
