@@ -1,6 +1,7 @@
 import tkinter as tk
 from PIL import Image, ImageDraw, ImageFont, ImageTk
 from languages import Language, Cantonese, Mandarin, Japanese, Russian, Spanish
+from utils import title_case
 import textwrap
 import sys
 import os
@@ -70,36 +71,42 @@ class MySlideShow(tk.Tk):
         self.is_active = False
 
     def generateImage(self, character, pronunciation, english):
+        english_list = textwrap.wrap(english, width=70)
         font_family = os.path.join(font_dir, "NotoSerifCJKjp-hinted", "NotoSerifCJKjp-ExtraLight.otf")
         scr_w, scr_h = self.winfo_screenwidth(), self.winfo_screenheight()
         image = Image.new("RGB", (scr_w, scr_h), color=(73, 109, 137))
-        unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype(font_family, 250)
+        from_size: int = 250
+        unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype(font_family, from_size)
         d = ImageDraw.Draw(image)
-        if unicode_font.getsize(character)[0] >= scr_w * 0.95:
-            unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype(font_family, 200)
+        while unicode_font.getsize(character)[0] >= scr_w * 0.95:
+            from_size -= 5
+            unicode_font: ImageFont.FreeTypeFont = ImageFont.truetype(font_family, from_size)
         lang_w, lang_h = unicode_font.getsize(character)
 
         d.text(
             ((scr_w - lang_w) / 2, (scr_h - lang_h - unicode_font.getoffset(character)[1]) / 2),
-            character.title(),
+            title_case(character),
             fill=(255, 255, 0),
             font=unicode_font,
         )
 
-        unicode_font = ImageFont.truetype(font_family, 50)
-        english_w, english_h = unicode_font.getsize(english)
-        d.text(
-            ((scr_w - english_w) / 2, (scr_h + lang_h - unicode_font.getoffset(english)[1]) / 2),
-            english.title(),
-            fill=(255, 255, 0),
-            font=unicode_font,
-        )
+        english_offset = 0
+        for e in english_list:
+            unicode_font = ImageFont.truetype(font_family, 50)
+            english_w, english_h = unicode_font.getsize(e)
+            d.text(
+                ((scr_w - english_w) / 2, (scr_h + english_offset + lang_h - unicode_font.getoffset(e)[1]) / 2),
+                title_case(e),
+                fill=(255, 255, 0),
+                font=unicode_font,
+            )
+            english_offset += english_h + unicode_font.getoffset(e)[1] + 10
 
         unicode_font = ImageFont.truetype(font_family, 40)
         pronunciation_w, pronunciation_h = unicode_font.getsize(pronunciation)
         d.text(
             ((scr_w - pronunciation_w) / 2, (scr_h - lang_h) / 2 - pronunciation_h),
-            pronunciation.title(),
+            title_case(pronunciation),
             fill=(255, 255, 0),
             font=unicode_font,
         )
@@ -109,6 +116,7 @@ class MySlideShow(tk.Tk):
         self.wm_geometry("{}x{}+{}+{}".format(scr_w, scr_h, 0, 0))
 
         self.image_stack.append(ImageTk.PhotoImage(image))
+        self.image_stack = self.image_stack[-10:]
 
     def toggle_fullscreen(self):
         self.is_fullscreen = not self.is_fullscreen
