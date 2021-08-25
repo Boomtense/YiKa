@@ -43,8 +43,8 @@ class Cantonese(Language):
     def parse_jyutping(self, jyutping: str) -> str:
         return jyutping.replace("{", "}").replace("}", "")
 
-    def get_definition(self) -> List[str]:
-        return self.parse_definition(random.choice(self.definitions))
+    def get_definition(self):
+        return self.parse_definition(random.choice(self.definitions)), False
 
 
 class Mandarin(Language):
@@ -84,7 +84,7 @@ class Mandarin(Language):
                 source.readline()
             self.definitions = source.readlines()
 
-    def parse_definition(self, definition: str) -> List[str]:
+    def parse_definition(self, definition: str):
         split_definition: str = definition.split("/")
         character_pinyin: str = split_definition[0]
         pinyin_start: str = character_pinyin.find("[")
@@ -94,7 +94,7 @@ class Mandarin(Language):
         characters = double_character.split()
         character = characters[1]
 
-        return character, self.parse_pinyin(pinyin), self.parse_pinyin(english)
+        return character, self.parse_pinyin(pinyin), self.parse_pinyin(english), False
 
     def parse_pinyin(self, pinyin: str) -> str:
 
@@ -142,11 +142,11 @@ class Spanish(Language):
         super().__init__()
         self.source = ET.parse(get_file_path("es-en.xml"))
 
-    def get_definition(self) -> List[str]:
+    def get_definition(self):
         root = self.source.getroot()
         letter_group = random.choice(root)
         word = random.choice(letter_group)
-        return word[0].text, word[2].text, word[1].text
+        return word[0].text, word[2].text, word[1].text, False
 
 
 class Japanese(Language):
@@ -160,18 +160,23 @@ class Japanese(Language):
             self.definitions.extend(reader)
             self.definitions.pop(0)
 
-    def get_definition(self) -> List[str]:
+    def parse_characters(self, characters: str) -> str:
+        word_list = characters.split(";")
+        fixed_word_list = map(lambda a: a.replace(".", "(") + ")" if "." in a else a, word_list)
+        return " /".join(fixed_word_list)
+
+    def get_definition(self):
         kanji, english, components, on_reading, kun_reading = random.choice(self.definitions)
+        pronunciation = ""
 
-        # TODO: format both readings so that it doesn't look horrible on screen
-        # if kun_reading and on_reading:
-        #    pronunciation = f"くん: {kun_reading}, おん: {on_reading}"
-        # elif kun_reading:
-        #    pronunciation = f"くん: {kun_reading}"
-        # elif on_reading:
-        #    pronunciation = f"おん: {on_reading}"
+        if kun_reading and on_reading:
+            pronunciation = f"くん: {self.parse_characters(kun_reading)}, おん: {self.parse_characters(on_reading)}"
+        elif kun_reading:
+            pronunciation = f"くん: {self.parse_characters(kun_reading)}"
+        elif on_reading:
+            pronunciation = f"おん: {self.parse_characters(on_reading)}"
 
-        return kanji, (kun_reading if kun_reading else on_reading), english
+        return kanji, pronunciation, english, True
 
 
 class Russian(Language):
