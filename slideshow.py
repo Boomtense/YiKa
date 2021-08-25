@@ -54,8 +54,8 @@ class MySlideShow(tk.Tk):
         if hasattr(self, "next"):
             self.after_cancel(self.next)
         if self.pointer == -1:
-            character, pronunciation, english = self.lang.get_definition()
-            self.generateImage(character, pronunciation, english)
+            character, pronunciation, english, right_align = self.lang.get_definition()
+            self.generateImage(character, pronunciation, english, right_align)
         else:
             self.pointer += 1
         self.showImage()
@@ -70,7 +70,7 @@ class MySlideShow(tk.Tk):
             self.after_cancel(self.next)
         self.is_active = False
 
-    def generateImage(self, character, pronunciation, english):
+    def generateImage(self, character: str, pronunciation: str, english: str, right_align: bool = False):
         english_list = textwrap.wrap(english, width=70)
         font_family = os.path.join(font_dir, "NotoSerifCJKjp-hinted", "NotoSerifCJKjp-ExtraLight.otf")
         scr_w, scr_h = self.winfo_screenwidth(), self.winfo_screenheight()
@@ -103,13 +103,31 @@ class MySlideShow(tk.Tk):
             english_offset += english_h + unicode_font.getoffset(e)[1] + 10
 
         unicode_font = ImageFont.truetype(font_family, 40)
-        pronunciation_w, pronunciation_h = unicode_font.getsize(pronunciation)
-        d.text(
-            ((scr_w - pronunciation_w) / 2, (scr_h - lang_h) / 2 - pronunciation_h),
-            title_case(pronunciation),
-            fill=(255, 255, 0),
-            font=unicode_font,
-        )
+        if right_align:
+            word_offset = 0
+            for word in pronunciation.split(","):
+                pronunciation_list = textwrap.wrap(word, width=20)
+                pronunciation_h = 0
+                padding = 0
+                for p in pronunciation_list:
+                    padding = 0 if ":" in p else 105
+                    pronunciation_w, pronunciation_h = unicode_font.getsize(p)
+                    d.text(
+                        ((scr_w + lang_w) / 2 + 50 + padding, (word_offset + scr_h - lang_h) / 2 + pronunciation_h),
+                        title_case(p),
+                        fill=(255, 255, 0),
+                        font=unicode_font,
+                    )
+                    word_offset += pronunciation_h + unicode_font.getoffset(p)[1] + 20
+                word_offset += 50
+        else:
+            pronunciation_w, pronunciation_h = unicode_font.getsize(pronunciation)
+            d.text(
+                ((scr_w - pronunciation_w) / 2, (scr_h - lang_h) / 2 - pronunciation_h),
+                title_case(pronunciation),
+                fill=(255, 255, 0),
+                font=unicode_font,
+            )
 
         # set window size after scaling the original image up/down to fit screen
         # removes the border on the image
