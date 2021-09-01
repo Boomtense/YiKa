@@ -197,4 +197,4 @@ class Russian(Language):
         # make it so that we see all variants of a word (gender + partner)
         # think about adding some of the extra info the data set provides
 
-        return rus, "{%s}" % gender, eng
+        return rus, "{%s}" % gender, eng, False
