@@ -1,0 +1,309 @@
+# Marathi-English dictionary created from OmegaWiki database
+# Created on: 2021-09-01T21:58:30+00:00
+# Licence: GNU Free Documentation Licence http://www.gnu.org/copyleft/fdl.html
+# Download updated version of this file at: https://www.dicts.info/uddl.php
+# Contact us at: https://www.dicts.info/contact.php
+View lemma information ; पंचांग	calendar
+strops	beehive
+अँटिमोनी	antimony
+अंटार्क्टिका	Antarctica
+अक्शर	letter
+अचानक	sudden ; abrupt ; precipitous
+अज़रबैजान \ ; अज़रबैजान	Azerbaijan ; Republic of Azerbaijan
+अणु	atom
+अत्याचार	anarchy
+अदमासें	estimate
+अध्याय	chapter
+अनुमान	assumption ; supposition
+अन्डोरा	Andorra ; Principality of Andorra
+अपवाद	exception
+अप्रचलित	obsolete
+अफ़गानिस्तान	Afghanistan ; Transitional Islamic State of Afghanistan
+अफू	opium
+अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन ; अब्राहम लिंकन	Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln
+अरबी भाषा	Arabic ; Standard Arabic
+अर्ज	petition
+अर्जेन्टीना	Argentina ; Argentine Republic
+अल्केमी	alchemy
+अल्बेनिया	Albania ; Republic of Albania
+आंग्ठा	thumb
+आगगाडी	train
+आगमन	arrival
+आधारभूत	fundamental
+आयोडिन	iodine
+आरोपी	defendant ; accused
+आर्मीनिया	Armenia
+आलार्म घड़ियाळ	alarm clock
+आशा	hope
+इक्वेडोर	Ecuador ; Republic of Ecuador
+इजिप्त	Egypt ; Arab Republic of Egypt
+इटली	Italian Republic ; Italy
+इथियोपिया	Ethiopia ; Federal Democratic Republic of Ethiopia
+इस्रायल	Israel ; State of Israel
+ईंग्रजी	English
+उचारण	pronunciation
+उपार्जन	acquisition
+ऍल्युमिनियम	aluminium
+एन्टिगुवा आणि बर्बूडा	Antigua and Barbuda
+एप्रिल	April
+एस्टोनिया	Estonia ; Republic of Estonia
+ऑक्सिजन	oxygen
+ऑगस्ट	August
+ऑस्ट्रिया	Austria ; Republic of Austria
+ऑस्ट्रेलिया ( ; ऑस्ट्रेलिया	Australia ; Commonwealth of Australia
+ओक्लाहोमा	Oklahoma
+कंदील	lantern
+कंबोडिया	Cambodia ; Kingdom of Cambodia
+कठिण	difficult
+कडकडाट	thunder
+कपट	fraud
+कब्जा	possession
+कर्ब	carbon
+कांदा	onion
+कान	ear
+कामधंदा	career
+कामेरून	Cameroon ; Republic of Cameroon
+किरिबाटी	Kiribati ; Republic of Kiribati
+किल्ला ; दुर्ग ; गड	castle
+कुत्रा	dog
+कॅनडा	Canada
+कॅलिफोर्नियम	californium
+केस	hair
+कोबाल्ट	cobalt
+कोम्डा	chicken
+कोरीयन	Korean ; Korean
+कोळ्याचें जाळें	web ; spider web
+क्षितिज	horizon
+खिडकी	window
+गर्भाधान	fertilisation ; fecundation
+गहू	wheat
+गांधीलमाशी	wasp
+गाय	cow
+गिळणें	usurp
+गुडदा	kidney
+ग्रंथपाल	librarian
+ग्रंथालय	library
+घृणा	hate ; hatred
+घोषणा	declaration ; statement
+चप्पल	slipper
+चांदी	silver
+चिम्पांज़ी	chimpanzee
+चिली	Chile ; Republic of Chile
+चीन	People's Republic of China ; China
+चेक प्रजासत्ताक	Czech Republic ; Czechia
+जन्म	birth ; birth ; birth ; childbirth ; childbirth ; childbirth ; parturition
+जपान	Japan ; State of Japan
+जर्मन भाषा	German
+जादुगर	wizard ; sorcerer ; magician
+जानेवारी	January
+जापानी	Japanese ; Japanese
+जुलै	July
+जून	June
+जॉर्जियन	Georgian ; Georgian
+जॉर्डन	Jordan ; Hashemite Kingdom of Jordan
+ज्योतिषी	astrologer
+झाड	tree
+झिंक	zinc
+झेनॉन	xenon
+टंग्स्टन	tungsten
+टपालघर	post office
+टरकी	turkey
+टांगा	Tonga
+टांझानिया	Tanzania
+टायटॅनियम	titanium
+टिन	tin
+टेलरियम	tellurium
+टेलीफोन	phone ; telephone
+डब्नियम	dubnium
+डिसेंबर	December
+डॉमिनिकन प्रजासत्ताक	Dominican Republic
+डॉल्फिन	dolphin
+डोळा	eye
+तत्त्वज्ञान	philosophy
+तमिळ	Tamil ; Tamil
+तळघर	basement
+तसवीर	photo ; photograph
+तसाच	analogous
+तांबे	copper
+तिरंदाज	archer ; archer
+त्रिकोण	triangle
+थाई	Thai ; Thai
+दम्याचा रोग	asthma
+दरवाजा ; दार	door
+दान	donation
+दारु	wine
+दारुड्या	drunk ; drunkard ; boozer
+दिवाळखोरी	bankruptcy
+दुराचार	corruption
+दृष्टिभ्रम	hallucination
+धमनी	artery
+धर्म	religion
+धान्य	harvest
+धूमकेतु	comet
+नवीन वर्षाच्या शुभेच्छा	Happy New Year
+नाकपुडी	nostril
+नामिबिया	Namibia
+नायट्रोजन	nitrogen
+नारळ	kokosnoot ; coconut
+निकेल	nickel
+नियॉन	neon
+निर्णय	decision
+निवडणूक	ballot
+नृवंशसास्त्र	anthropology
+नृवंशसास्त्री	anthropologist
+नोबेलियम	nobelium
+न्याहारी	breakfast
+न्यू झीलँड	New Zealand
+पक्षीशास्त्र	ornithology
+पचनशक्ति	digestion
+परंपरागत	traditional
+परराष्ट्रीय वकील	ambassador
+पशुचिकित्सक	veterinarian ; veterinary
+पाकिस्तान	Pakistan ; Islamic Republic of Pakistan
+पाणी ; जल	water
+पाय	leg
+पारा	mercury
+पालेभाजी	vegetable
+पाहाणें	observation
+पिण्याची वस्तु	beverage ; drink
+पित्त	bile
+पॅलॅडियम	palladium
+पेंगुइन	penguin
+पेचकश	screwdriver
+पैराशूट	parachute
+पोर्तुगाल	Portugal
+प्रदुषण	pollution
+प्रयास	effort ; exertion
+प्रसूति	motherhood ; maternity
+प्राणदंड	death penalty ; capital punishment ; death sentence
+प्रोमेथियम	promethium
+प्लीहा	spleen
+प्लुटोनियम	plutonium ; plutonium ; plutonium
+फर्मियम	fermium
+फांसा	dice ; die ; die ; die
+फारोईझ	Faroese ; Faeroese
+फिनलंड	Finland ; Republic of Finland
+फॉस्फरस	phosphorus
+फोड	blister
+फ्रान्स	France
+फ्रेंच भाषा	French ; French
+फ्रेंच राज्यक्रांती	French Revolution
+फ्लोरिन	fluorine
+बयाणा	advance
+बहरीन	Bahrain
+बहिरा	deaf
+बहुमोल	valuable
+बांगलादेश	Bangladesh ; People's Republic of Bangladesh
+बाइको	female ; woman
+बिछाना	bed
+बिस्मथ	bismuth
+बेलारूस	Belarus ; Republic of Belarus
+बेलारूसी	Belarusan ; Belarusan ; Belarusian ; Belorussian ; Byelorussian
+बेसबॉल	baseball ; baseball game
+ब्रोमिन	bromine
+भारत	India ; Republic of India
+भाषा	language
+भुगोल	geography
+मंदस्मित	smile
+मराठी	Marathi ; Marāthi ; Marāthi ; MarÄthi
+मलगी	daughter
+मलेरिया	malaria
+महिना	month
+मांजर	cat
+माइक्रोफ़ोन	microphone
+माणिक	ruby
+मान्यता	acceptance ; credence
+मार्च	March
+मालमत्ता	property ; asset
+मुंगी	ant
+मुंबई ; बम्बई	Mumbai ; Bombay
+मुखर	explicit
+मॅसेच्युसेट्स	Massachusetts
+मेणबत्ती	candle
+मॉलिब्डेनम	molybdenum
+म्यानमार	Myanmar
+म्हतारा	veteran
+युटाह	Utah
+येणे	come
+रशिया	Russia ; Russian Federation
+राजकुमार	prince
+राजधानी	capital
+राज्यपाल	governor
+राशीचक्र	zodiac
+रूमाल	handkerchief
+रूळ-इंजन	locomotive
+र्‍होडियम	rhodium
+लढाईचे	strategic
+लाकुड	wood
+लात्व्हिया	Latvia ; Republic of Latvia
+लिथोग्राफ	lithography
+लिस्बन	Lisbon
+लीलावाची बोली	auction
+लेखन शैली	calligraphy
+लोखंड	iron
+वंशवृक्ष	genealogy
+वसाहत	human population
+वाट दिवस	birthday
+विघ्न	obstacle ; obstruction
+विचार	consideration
+विपत्काल	emergency
+विषुववृत्त	equator
+विहारनौका	yacht
+वॉटर पोलो	water polo
+वॉलीबॉल	volleyball
+व्हेनेडियम	vanadium
+व्हेल	whale
+शंभर	hundred
+शनिवार-रविवार	weekend
+शब्दकोष ; विश्वकोष	dictionary
+शल्यचिकित्सक	surgeon
+शिसे	lead
+शीड नौका	sailing ship
+शीतकपाटगृह	refrigerator ; fridge
+शेजारी	neighbour ; vecino
+श्रीलंका	Sri Lanka
+संक्रामक रोग	infectious disease ; communicable diseases
+संगीत वाद्यवृंद	orchestra
+संपूर्णपणे	absolutely
+संभवनीय	viable ; viable ; feasible
+संस्कृत	Sanskrit ; Sanskrit
+समस्या	problem
+समुद्राश्व	walrus
+सर्दी	influenza ; flu
+सल्फर	sulphur
+सह	alongside ; amongst ; with
+साक्षी माणूस	witness
+सासू	mother-in-law ; mother in law
+सिझियम	caesium
+सिलिकॉन	silicon
+सुपर मार्केट	supermarket
+सुरुंग	tunnel
+सुलभ	easy ; piece of cake ; like shooting fish in a barrel
+सुविधा	facility
+सुस्ती	lethargy ; sluggishness ; languor
+सूट	discount
+सेंट पीटर्सबर्	Leningrad ; Petrograd ; Saint Petersburg ; St. Petersburg
+सेनेगाल	Senegal
+सेलेनियम	selenium
+सोडियम	sodium
+सोन	gold
+सोमल	arsenic
+स्कॅन्डियम	scandium
+स्फोट	explosion
+स्वातंत्र्य	freedom ; liberty
+स्वातंत्र्य	independence
+स्वाहिली	Swahili
+स्वित्झर्लंड	Switzerland
+हंगेरी	Hungary ; Republic of Hungary
+हंसणें	laugh
+हंसी	goose
+हाडाचां सापळा	skeleton
+हाफ्नियम	hafnium
+हायड्रोजन	hydrogen
+हिन्दी	Hindi ; Hindi
+हिब्रू भाषा	Hebrew
+हेलियम	helium
+हैती	Haiti ; Republic of Haiti
+होल्मियम	holmium
+救急車	ambulance
+marathi	english
