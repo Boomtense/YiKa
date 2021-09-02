@@ -1,0 +1,1008 @@
+# Arabic-English dictionary created from OmegaWiki database
+# Created on: 2021-09-01T21:48:05+00:00
+# Licence: GNU Free Documentation Licence http://www.gnu.org/copyleft/fdl.html
+# Download updated version of this file at: https://www.dicts.info/uddl.php
+# Contact us at: https://www.dicts.info/contact.php
+آذربيجان	Azerbaijan ; Republic of Azerbaijan
+آلة موسيقية	instrument ; musical instrument
+أبجدية إغريقية	Greek alphabet
+أبراج	constellation
+أبو الهول	sphinx
+أبيجان	Abidjan
+أبيض	white
+أثاث	furniture
+أثينا	Athens
+أثيوبي	Ethiopia ; Federal Democratic Republic of Ethiopia
+أجنبي	foreign
+أخرس	dumb
+أخطبوط	octopus
+أخلاق	ethics
+أداة التعريف	article
+أرجون	argon
+أرخبيل	archipelago
+أردو	Urdu ; Urdu
+أرستقراطية	aristocracy
+أرشيف	archive
+أرض	earth ; Earth ; the world ; Blue Planet
+أرمينيا	Armenia
+أروبا	Aruba
+أريزونا	Arizona
+أرْنَب	rabbit
+أساسي	fundamental
+أستراليا	Australia ; Commonwealth of Australia
+أستوني	Estonian
+أسقف	prelate
+أسكتلندا	Scotland
+أسي	hostage
+أسير حرب	prisoner of war ; POW ; PoW ; PW
+أصمّ	deaf
+أغُسْطُسْ	August
+أفريقانية	Afrikaans
+أفضل ; أحسن	better
+أفغانستان	Afghanistan ; Transitional Islamic State of Afghanistan
+أفق	horizon
+أفيون	opium
+أكتوبر	October
+أكتينيوم	actinium
+أكل	eat
+ألب	Alps
+ألبانيا	Albania ; Republic of Albania
+ألبينو	albinism
+ألف	thousand
+ألماني	German
+ألومينيوم	aluminium
+أمريكيوم	americium
+أمطار حمضية	acid rain
+أمفيتامي	amphetamine
+أمل	hope
+أمومة	motherhood ; maternity
+أمير	prince
+أمين المكتبة	librarian
+أناكوندا	anaconda
+أنتاركتيكا	Antarctica
+أنتولوجيا	ontology
+أندورا	Andorra ; Principality of Andorra
+أنغول	Angola ; Republic of Angola
+أنمي	anime
+أنون أوكتيوم	ununoctium
+أنون بيوم	ununbium
+أنون سيبتيوم	ununseptium
+أوغندا	Uganda ; Republic of Uganda
+أوكتاف	octave
+أوكراني	Ukrainian ; Ukrainian
+أوكرانيا	Ukraine
+أوكسيجين	oxygen
+أوكلاهوما	Oklahoma
+أولان	Åland Islands
+أوم	ohm
+أيون	ion
+أَب ; أَب	father
+أَسَد	lion
+أُذُن	ear
+أُسْقُفية	diocese ; diocese
+أُمِّيّ	illiterate
+أُمّ	mother
+أِعْتبار	consideration
+إبرة الراعي	geranium
+إدارة	management
+إدمان كحولي	alcoholism
+إدو	Ido ; Ido
+إربيوم	erbium
+إرهاب	terrorism
+إريتريا	Eritrea
+إريديوم	iridium
+إرْهَابِيّ	terrorist
+إسباني	Castilian ; Spanish ; Spanish
+إسبرانتو	Esperanto ; Esperanto
+إسلندي	Icelandic
+إسهال سكري	infectious disease ; communicable diseases
+إضاءة	lighting
+إغراق ; زيادة تدفق ; غمر ; فيضان	alluvion ; flood ; overflowing ; inundation
+إفقار	impoverishment
+إفلاس	bankruptcy
+إلسلفادور	El Salvador ; Republic of El Salvador
+إلهيات	theology
+إنجلترا	England
+إندونيسي	Indonesian
+إندونيسيا	Indonesia ; Republic of Indonesia
+إنديوم	indium
+إيديولوجيا	ideology
+إيطالي	Italian ; Italian
+إيطالي ; روسية	Russian ; Russian
+إِسْرَائِيل	Israel ; State of Israel
+إِيرَان	Iran ; Islamic Republic of Iran
+ابتداع	creativity ; inventiveness
+ابن_آوى	jackal
+اتفاق	treaty
+احتيال	fraud
+ارمينية	Armenian
+ازرق	blue
+ازميوم	osmium
+اسبانيا	Spain
+استثناء	exception
+استراتيجي	strategic
+استقلال	independence
+استموات	apoptosis
+اسلام	Islam
+اسم	noun ; substantive
+اشت	buy ; purchase
+اصبع	finger
+اعصار	storm ; tempest
+اغتصب	usurp
+اكتساب	acquisition
+الأرجنتين	Argentina ; Argentine Republic
+الأردن	Jordan ; Hashemite Kingdom of Jordan
+الأيرلندية	Irish ; Irish ; Irish Gaelic ; Irish
+الإلياذة	Iliad
+الإمارات	United Arab Emirates
+الاتحاد الأوروبي	EU ; European Union
+الاســـهال	diarrhea
+البندقية	Venice
+البوسنة و الهرسك	Bosnia and Herzegovina ; Republic of Bosnia and Herzegovina
+التبرّع	donation
+التزود بالمياه	water supply
+التشاب	analogy
+التهاب	infection
+التهاب الدماغ	encephalitis
+التَّبنِّي	adoption
+الثورة الفرنسية	French Revolution
+الجبل الأسود	Montenegro
+الجمشت	amethyst
+الحكم بالإعدام	death penalty ; capital punishment ; death sentence
+الحمل	pregnancy
+الخرطوم ; خرطوم	Khartoum
+الخضار	vegetable
+الخيميائي	alchemist
+الراعي	shepherd
+الرمان	pomegranate
+الزهرة	Venus
+الزهرى	syphilis
+السعودي	Saudi Arabia ; Kingdom of Saudi Arabia
+السنجاب ; السنجاب الأمريكي	chipmunk
+السواحلية	Swahili
+السودان	Sudan
+السويد	Sweden
+السيطرة	takeover
+السيلان	gonorrhea
+السين	Seine
+الشيوعي	communism
+الصربية	Serbian ; Serbian
+الصين	People's Republic of China ; China
+الطبول	drum kit
+العراق	Iraq ; Republic of Iraq
+العربية	Arabic ; Standard Arabic
+العنب	huckleberry ; blueberry
+الغابون	Gabon ; Gabonese Republic
+الفلبين	Philippines
+الفوضوي	anarchism
+القاهرة	Cairo
+القتل العرقي	genocide
+القراءة العكسية أو الطردية	palindrome
+الكويت	Kuwait ; State of Kuwait
+المالطية	Maltese
+المانيا	Germany ; Federal Republic of Germany
+المجر	Hungary ; Republic of Hungary
+المرة	bile
+المستعمل	user
+المغرب	Morocco ; Kingdom of Morocco
+المفكرة	diary
+المملكة المتحدة ; مملكة بريطانيا العظمى وشمال إيرلندا المتحدة،	United Kingdom ; United Kingdom of Great Britain and Northern Ireland ; UK
+النادل	waiter
+الهند	India ; Republic of India
+الوالون	Walloon ; Walloon
+الولايات المتحدة الأمريكية	United States ; United States of America ; America ; US ; U.S. ; U.S.A. ; U.S. of A. ; States
+اليابان	Japan ; State of Japan
+اليمنية	Yemen ; Republic of Yemen
+اليونان	Greece ; Hellenic Republic
+الْجَزَائِر	Algeria ; People's Democratic Republic of Algeria
+امرأة	female ; woman
+ان بيار وميكلون	Saint-Pierre and Miquelon
+انتحار	suicide
+انجليزي	English
+انحلال	dissolution
+انفجار	explosion
+ايرلندا	Ireland ; Republic of Ireland
+ايطاليا	Italian Republic ; Italy
+اينشتنيوم	einsteinium
+اِختصار	abbreviation
+اِنتخاب	ballot
+اِنقلاب أبيض	putsch ; coup d'état
+بابون	baboon
+باثولوجيا	pathology
+بارومتر	barometer
+باريوم	barium
+باع	sell
+باكستان	Pakistan ; Islamic Republic of Pakistan
+بالاديوم	palladium
+بتسوانا	Botswana ; Republic of Botswana
+بحار النجدة	lifeguard
+بحر أدرياتيكي	Adriatic Sea
+بحر إيجة	Aegean Sea
+بحر الكاريبي	Caribbean Sea
+بحرين	Bahrain
+بدين	fat ; obese
+براسوديميوم	praseodymium
+براشوت	parachute
+برتغال	Portugal
+برتغالية	Portuguese ; Portuguese
+برتقالة	orange
+برج إيفل	Eiffel Tower
+برغوث	flea
+برغي	screw
+بروتكتنيوم	protactinium
+بروستاتا	prostate
+بروكلي	broccoli
+بروم	bromine
+بروميثيوم	promethium
+بروني	Brunei ; Negara Brunei Darussalam
+بريتونية	Breton ; Breton
+بزموث	bismuth
+بطاطا	potato ; patato
+بطانة	coating
+بطة	duck
+بطيء	slow
+بظر	button ; clit ; clitoris
+بغض	abhor ; loathe ; detest
+بغل	mule
+بلاتين	platinum
+بلجراد	Belgrade
+بلغاري	Bulgarian ; Bulgarian
+بلغاريا	Bulgaria ; Republic of Bulgaria
+بلوتونيوم ; بلوتونيوم ; بلوتونيوم	plutonium ; plutonium ; plutonium
+بليز	Belize
+بندورة	tomato
+بنطلونات	trousers
+بنغلاديش	Bangladesh ; People's Republic of Bangladesh
+بنكرياس	pancreas
+بنما	Panama
+بوتاسيوم	potassium
+بوتان	Bhutan ; Kingdom of Bhutan
+بورتو ريكو	Puerto Rico
+بورنيو	Borneo ; Kalimantan
+بورون	boron
+بوروندي	Burundi ; Republic of Burundi
+بوريوم	bohrium
+بوق	trumpet
+بولندا	Poland
+بولندي	Polish ; Polish
+بولونيوم	polonium
+بوليفي	Bolivia ; Republic of Bolivia
+بوليمر	polymer
+بونساي	bonsai
+بيت لحم	Bethlehem
+بيرمينغهام	Birmingham
+بيرو	Peru ; Republic of Peru
+بيروقراطية	bureaucracy
+بيريليوم	beryllium ; glucinium
+بيطري	veterinarian ; veterinary
+بيطري	veterinarian
+بيلاروسي ; بيلوروسية	Belarusan ; Belarusan ; Belarusian ; Belorussian ; Byelorussian
+بين	between
+بَابٌ ; أبْوَاب	door
+بَصَ	onion
+بَقَرَة	cow
+بَيْتٌ	home ; home ; house
+بِطْرِيق	penguin
+بِنت	girl
+بْرِيل	April
+تآصل	allotropy
+تاجر	merchant
+تايلاندي	Thai ; Thai
+تايلند	Thailand
+تايوان	Taiwan
+تبغ	tobacco
+تتاري	Tatar ; Tatar
+تحريك حراري	thermodynamics
+تخطيط	planning
+تخفيض	discount
+تدريب	training
+تربيوم	terbium
+ترجم	translate ; interpret
+ترجمة	translation
+تركيا	Turkey
+تروفي	trophy
+تستوستيرون	testosterone
+تسريع	acceleration
+تشاد	Chad ; Republic of Chad
+تشيك	Czech Republic ; Czechia
+تشيكية	Czech ; Czech
+تضحية	sacrifice
+تطعي	vaccination
+تطويب	beatification
+تغالوغ	Tagalog
+تفاؤل ; تفاؤل ; تفاؤل	optimism ; optimism ; optimism ; optimism ; optimism ; optimism ; optimism
+تفاهة	platitude ; cliche ; cliché
+تقدير	estimate
+تقوي	calendar
+تكنيتيوم	technetium
+تل ; هضبة	colina ; hill ; loma
+تلفاز ; تلفزيون	television
+تلقيح	fertilisation ; fecundation
+تنتالم	tantalum
+تنجستن	tungsten
+تنزانيا	Tanzania
+تهوية	ventilation
+توأم	twin
+توت	voltage
+تورنغن	Thuringia
+تورونتو	Toronto
+توسل	petition
+توغو	Togo
+تونجا	Tonga
+تيتانيوم	titanium
+تيلوريوم	tellurium
+تيمور الشرقية	East Timor ; Democratic Republic of Timor-Leste
+تينيسي	Tennessee
+تَشابُّهي	analogous
+تَصْرِيح	declaration ; statement
+تَلَوُّث	pollution
+تَمْيِي	discrimination
+تُرْكِيَّة	Turkish ; Turkish
+تْسُونَامِي	seismic sea wave ; tsunami
+ثاليوم	thallium
+ثاني أكسيد الكربون	carbon dioxide
+ثلاثة	three
+ثمين	valuable
+ثنائي	bilateral
+ثوب ; لباس	dress
+ثور	bull
+ثوريوم	thorium
+جار	neighbour ; vecino
+جاكرتا	Jakarta ; Djakarta ; DKI Jakarta
+جاليوم	gallium
+جامعة ; جامعة	university ; university ; academy
+جاميكا	Jamaica
+جبل طارق	Gibraltar
+جبل فوجي	Mount Fuji
+جدار	wall
+جدول ; طاولة	table
+جدولينيوم	gadolinium
+جراحة	surgery
+جرادة	locust
+جرانيت	granite
+جرح	wound
+جرمانيوم	germanium
+جرينادا	Grenada
+جرينلاندية	Kalaallisut
+جزر برمودا	Bermuda
+جزر جوادلوب	Guadeloupe
+جزر فارو	Faroe Islands
+جزر فوكلاند	Falkland Islands
+جزيرة جيرزي	Jersey ; Bailiwick of Jersey
+جزيرة عيد الميلاد	Christmas Island
+جزيرة مان	Isle of Man ; Isle of Mann ; Mann
+جغرافيا	geography
+جلاَّد	executioner
+جمجمة	skull
+جمع	add
+جمل	camel
+جمهورية الدومنيكان	Dominican Republic
+جمهورية الكونغو	Republic of the Congo ; Congo-Brazzaville
+جمهورية الكونغو الديمقراطية	Democratic Republic of the Congo ; Congo-Kinshasa
+جنائني	gardener
+جنازة	funeral
+جنس	species
+جنوب افريقيا	South Africa
+جهاز هضمي	gastrointestinal tract ; alimentary canal
+جهد	effort ; exertion
+جوارب	sock
+جورجي	Georgian ; Georgian
+جورجيا	Georgia
+جوز هن	kokosnoot ; coconut
+جوع ; جوع ; جوع	hunger ; hunger ; hunger
+جوقة	orchestra
+جويانا الفرنسية	French Guiana
+جيبوت	Djibouti ; Republic of Djibouti
+جيدو	judo
+جيومرفولجيا	geomorphology
+جَرَّاح	surgeon
+جَمْع	addition
+حاجب	eyebrow
+حاجز	obstacle ; obstruction
+حاخام	rabbi
+حاكم	governor
+حجر	lime
+حداد	blacksmith
+حدود	boundary
+حديد	iron
+حركي	activist
+حري	silk
+حري	harem
+حرّي	freedom ; liberty
+حزاز	lichen
+حساب	account
+حصان	horse
+حطاب	lumberjack
+حف	grandson
+حقد	hate ; hatred
+حقنة	syringe
+حلاّق	hairdresser ; barber
+حمار	donkey ; ass
+حمام سباحة	swimming pool
+حمض	acid
+حموضة	acidity
+حواري	apostle
+حوت	whale
+حوت سليمان	salmon
+حَرْف	letter
+حِفَاض	nappy
+حِمَار الزَّرَد	zebra
+خارصين	zinc
+خبّاز	baker
+خث	peat
+خرشوف	artichoke
+خروف	sheep
+خس	lettuce
+خشب	wood
+خطّ الي	calligraphy
+خل	vinegar
+خلايا الطاقة	fuel cell
+خمول	apathy
+خميرية	Khmer ; Central Khmer
+خنزير غينيا	guinea pig
+خيط	sew
+خيمياء	alchemy
+خيّاط	tailor
+خُبْز ; عَيْش	bread
+خُفّ	slipper
+دارمشتادتيوم	darmstadtium
+داغستان	Dagestan
+داكار	Dakar
+دالي	vineyard
+دانمارك	Denmark ; Kingdom of Denmark
+دانماركي	Danish
+داين	debit
+دب	bear
+دب قطبي	polar bear
+دبلوماسي	diplomat
+دبنيوم	dubnium
+دبّور	wasp
+دجاجة	chicken
+دخل	enter
+دراجة	bicycle ; bike ; cycle
+دراسات سكانية	demography
+درب التبانة	Milky Way ; Galaxy
+دفع عربون	advance
+دفن في الأرض	landfill
+دقيقة	minute
+دنجي	dengue fever
+دهلي	tunnel
+دين	debt
+دُلْفِين	dolphin
+دِيسمْبِر	December
+دِيك رُومي	turkey
+ذرة	atom
+ذرية	posterity
+ذكرى سنوي	anniversary
+ذهب	gold
+ذهب	go
+ذِئْبٌ	wolf
+رئيس	head
+راتب	salary
+رادون	radon
+راديوم	radium
+راغب	ambitious
+ربو	asthma
+ربيع	spring
+رجلٌ ; ساقٌ	leg
+رذرفورديوم	rutherfordium
+رشوة	corruption
+رصاص	lead
+رعد	thunder
+رفاهية	prosperity
+رقص	dance
+رمضان	Ramadan
+رنيوم	rhenium
+رهاب	phobia
+رهبة الخلاء	agoraphobia ; agoraphobia ; agoraphobia ; agoraphobia
+رواي	story
+رواية	novel
+روبيديوم	rubidium
+روتينيوم	ruthenium
+روديوم	rhodium
+روسيا	Russia ; Russian Federation
+روما	Rome
+روماني	Romanian ; Romanaian
+رومانيا	Romania
+روينتجينيوم	roentgenium
+رُزّ	rice
+زئبق	mercury
+زائل	ephemeral
+زامبيا	Zambia ; Republic of Zambia
+زايلفون	xylophone
+زراعة	agriculture
+زراعة ; زراعة	agriculture ; agriculture
+زراعة ; فلاحة	cultivation ; tillage
+زرافة	giraffe
+زركونيوم	zirconium
+زرنيخ	arsenic
+زنجبار	Zanzibar
+زهر النرد	dice ; die ; die ; die
+زورق شراعي	sailing ship
+زول	Zulu
+زينون	xenon
+سؤال	question
+ساحل العاج	Ivory Coast ; Cote d'Ivoire ; Republic of Cote d'Ivoire
+ساعة	hour
+ساكسفون	saxophone
+ساكسونيا السفلى	Lower Saxony
+ساكن	consonant
+ساموا	Samoa
+سامي	Assamese ; Assamese
+سانت بطرسبرغ	Leningrad ; Petrograd ; Saint Petersburg ; St. Petersburg
+سبات	lethargy ; sluggishness ; languor
+سبانخ	spinach
+سبيكة	alloy
+سبْتمْبر	September
+سترونتيوم	strontium
+سحابة	cloud
+سرق	bag ; pocket ; steal
+سرير	bed
+سريلانكا	Sri Lanka
+سفي	ambassador
+سقف ; غطاء	covering ; roofing
+سكانديوم	scandium
+سلام	peace
+سلحفاة	tortoise
+سلسلة ماركوف	Markov chain ; Markoff chain
+سلوفاكي	Slovak ; Slovak
+سلوفاكيا	Slovakia
+سلوفيني	Slovene ; Slovenian ; Slovenian
+سليكون	silicon
+سمنة	obesity
+سنة ; سنة شخصية	year ; solar year
+سندان	anvil
+سندي	Sindhi ; Sindhi
+سنغال	Senegal
+سهل	easy ; piece of cake ; like shooting fish in a barrel
+سهم	arrow
+سهولة	facility
+سوبرماركت	supermarket
+سوري	Syria ; Syrian Arab Republic
+سورينام	Suriname
+سويدي	Swedish
+سويسرا	Switzerland
+سيارة إسعاف	ambulance
+سيبورجيوم	seaborgium
+سيجار	cigar
+سيريوم	cerium
+سيزيوم	caesium
+سيف	sword
+سيلينيوم	selenium
+سيمفونية	symphony
+شاطئ	coast
+شامبانيا	champagne
+شاي	tea
+شباك	window
+شبكة طرق	road network
+شبه جزيرة	peninsula
+شراكة ; شركة ; مؤسسة ; مشروع	firm ; corporation ; enterprise ; company ; venture
+شطرنج	chess
+شعير	barley
+شـــاهد	witness
+شكرا	cheers ; thank you ; thanks
+شكرا	thank you
+شمبانزي	chimpanzee
+شمعة	candle
+شيشان	Chechen ; Chechen
+شيلي	Chile ; Republic of Chile
+شَجَرٌ	tree
+شَخص	person
+شَفقة	pity ; compassion
+شَهْرٌ	month
+شِفّة	lip
+صابُون	soap
+صبار	cactus
+صحافة	journalism
+صحراء	desert
+صحراء كبرى	sahara
+صحفي	journalist
+صخرة	rock
+صربيا والجبل الأسو	Serbia and Montenegro
+صرع	epilepsy
+صفصاف	willow
+صقلية	Sicilian ; Sicilian
+صنوبر	pino ; pine
+صوديوم	sodium
+صومالية	Somali ; somali
+صيد	hunting
+صيدلي	chemist ; pharmacist
+صيدليَّة	chemist's ; chemist's shop ; pharmacy
+صَفحة	page
+صِفْر	zero ; null
+ضبع	hyena
+ضريح	mausoleum
+طاجيكستان	Tajikistan
+طارئ	emergency
+طب أسنان	dentistry
+طبوغرافية	topography
+طبيب الأسنان	dentist
+طبيب الأطفال	paediatrician
+طبيب نفساني	psychiatrist
+طحال	spleen
+طريقة	method
+طماع	avaricious
+طهران	Tehran
+طوبولوجيا	topology
+طَلاَق	divorce
+طِفْل ; وَلَد	child
+ظرّ	flint ; flintstone
+عاصمة	capital
+عالم	world
+عالم	scientist
+عالم الآثار	archeologist ; archaeologist
+عجان	perineum
+عدد أولي	prime number ; prime
+عدس	lentil
+عدواني	aggressive
+عربة أطفال أو عجزة	wheelchair
+عزوبة	celibacy
+عسل	honey
+عشب	pasture
+عضية	organelle
+عطارد	Mercury
+عطش	thirst
+علم	teach
+علم النباتات	botany ; phytology
+علم النباتات	botany
+علم حساب المثلّثات	trigonometry
+علوم طبيعية	natural science
+عمان	Oman ; Sultanate of Oman
+عمل	business
+عنصر فلزي	ytterbium
+عنصر فلزي، معدن من الأراضي النّادرة	thulium
+عنكبوت	spider
+عيد الفصح	Easter
+عيد الميلاد السعي	Merry Christmas
+عَمَّار	mason ; bricklayer ; stonemason
+عَمِلَ	do
+عَيْن	eye
+عِبْرٍيّة	Hebrew
+عِلْم الوراثة	genealogy
+غامبيا	Gambia ; Gambia ; Gambia ; Gambia ; The Gambia ; Republic of The Gambia
+غامض	mysterious
+غانا	Ghana ; Republic of Ghana
+غدة	gland
+غدة نخامية	pituitary gland
+غذاء ; غذاء ; غذاء ; غذاء ; غذاء	lunch ; lunch ; lunch ; lunch ; luncheon
+غريب	strange ; odd
+غسول	lavender ; lavander
+غنغرينا	gangrene
+غوام	Guam ; Guam ; Guam
+غوجاراتية	Gujarati ; Gujarati
+غوريلاّ	gorilla
+غَدًا	tomorrow
+فئة	category
+فاتيكان	Vatican City ; The Holy See ; State of the Vatican City
+فاناديوم	vanadium
+فانوس	lantern
+فحص	observation
+فخّار	terracotta ; terracotta ; terracotta ; terra cotta
+فراشة	butterfly
+فرميوم	fermium
+فرن	oven
+فرن	furnace
+فرنسي	French ; French
+فرنسي ; فرانسيوم	francium
+فسفور	phosphorus
+فصل	chapter
+فضة	silver
+فعل	verb
+فلاندرز ; منطقة فلمنكية	Flanders ; Flemish region
+فلسفة	philosophy
+فلك	astronomy
+فلكي	astronomer
+فلوت	flute
+فلور	fluorine
+فليفولند	Flevoland
+فنان	artist ; creative person
+فنزويلا	Venezuela
+فنلندا	Finland ; Republic of Finland
+فهد	cheetah ; chetah
+فوضوية	anarchy
+فولابيك	Volapük
+فولغا	Volga
+فيتنامي	Vietnamese ; Vietnamese
+فيجي	Fiji ; Republic of the Fiji Islands
+فيزيولوجيا	physiology
+فيل	elephant
+فيلولوجيا	philology
+فينلندي	Finnish
+فَارْسِي	Persian ; Western Farsi ; Farsi
+فَاصُولِيَا	bean ; edible bean
+فَرَنسَا	France
+فِبْرَايِر	February
+قارب	boat
+قاطرة	locomotive
+قاعدة البيانات	database
+قاموس	dictionary
+قبرص	Cyprus ; Republic of Cyprus
+قبول	acceptance ; credence
+قدرة الرياح	wind power
+قذف	ejaculation
+قرار، حكم، عزم	decision
+قرة باغ	Nagorno-Karabakh
+قرغيزستان	Kyrgyzstan ; Kyrgyz Republic
+قرنبيط	cauliflower
+قصدير	tin
+قط	cat
+قطار	train
+قطاع غزة	Gaza Strip
+قطر	Qatar
+قلعة	castle
+قلم	pencil
+قمح	wheat
+قندس	beaver
+قهوة	coffee
+قواس	archer ; archer
+قوس قزح	rainbow
+قوصوه	Kosovo
+قيثارة	guitar
+قُنْفُذ	hedgehog
+قِراب الذك	condom ; prophylactic ; rubber ; safe ; safety
+كاحل	ankle ; talocrural joint
+كادميوم	cadmium
+كاراتيه	karate
+كاراج	garage
+كازاخستان	Kazakhstan ; Republic of Kazakhstan
+كافايين	caffeine
+كالسيوم	calcium
+كاليدونيا الجديدة	New Caledonia
+كاليفورنيوم	californium
+كاميرون	Cameroon ; Republic of Cameroon
+كبريت	sulphur
+كتلة	mass
+كحل	antimony
+كربون	carbon
+كرة القدم	football
+كرة الماء	water polo
+كرة طائرة	volleyball
+كرز	cherry
+كرسي	chair
+كرفس	celery
+كرواتيا	Croatia ; Republic of Croatia
+كرواتية	Croatian ; Croation
+كروم	chromium
+كريبتون	krypton
+كس	fracture
+كل عام وأنتم بخي	Happy New Year
+كلارينيت	clarinet
+كلب	dog
+كلمة	word
+كلور	chlorine
+كلي	kidney
+كمبوديا	Cambodia ; Kingdom of Cambodia
+كندا	Canada
+كوب	Cuba ; Republic of Cuba
+كوبلت	cobalt
+كوري	Korean ; Korean
+كوريوم	curium
+كوكائين	cocaine
+كوكب	planet
+كولومبيا	Colombia ; Republic of Colombia
+كولونيا	Cologne
+كيريباس	Kiribati ; Republic of Kiribati
+كيف	arrange ; adapt ; adjust ; conform ; accommodate ; suit
+كيلوغرام	kilogram
+كيمياء	chemistry
+كينيا	Kenya ; Republic of Kenya
+لا	no
+لاتف	Latvian ; Latvian
+لاتفيا	Latvia ; Republic of Latvia
+لاتيني	Latin ; Latin
+لاغوس	Lagos
+لاهاي	The Hague
+لبن	milk
+لبنان	Lebanon ; Lebanese Republic
+لتوانيا	Lithuania ; Republic of Lithuania
+لسانيات اجتماعي	sociolinguistics ; sociology of language
+لشبونه	Lisbon
+لغة بنغالية	Bengali ; Bengali
+لغة تيلوغو	Telugu ; Telugu
+لغة رسمية	official language
+لغة لوكسمبورغية	Luxembourgish ; Luxemburgish ; Luxembourgian
+لغة هندية قديمة	Sanskrit ; Sanskrit
+لفظة جديدة	neologism
+لقطلونية	Catalan ; Catalan
+لقلق	stork
+لنثانوم	lanthanum
+لوتيتيوم	lutetium
+لوحة مفاتيح	keyboard
+لورنسيوم	lawrencium
+ليبرالية	liberalism
+ليبيا	Libya ; Great Socialist People's Libyan Arab Jamahiriya
+ليبيريا	Liberia ; Republic of Liberia
+ليثيوم	lithium
+ليسوتو	Lesotho ; Kingdom of Lesotho
+لُغَةٌ	language
+لُغَةٌ	tongue
+ماء	water
+مارتينيك	Martinique
+ماساتشوستس	Massachusetts
+ماكروسكوبي	macroscopic
+مالطا	Malta ; Republic of Malta
+مالك	owner
+ماليزيا	Malaysia
+مايتنريوم	meitnerium
+مترجم	interpreter
+متشدد	difficult
+متعهد	entrepreneur
+متلازمة داون	Down syndrome ; Down’s syndrome
+متّهَم	defendant ; accused
+مثلث	triangle
+مجري	Hungarian
+مجلة	journal ; mag ; magazine ; periodical
+محار	oyster
+محامٍ	lawyer
+محلول	liquid
+مدغشق	Madagascar ; Republic of Madagascar
+مدونة	blog ; weblog ; web log
+مرارة	gallbladder
+مراكم	accumulator
+مرض السَّرقة	kleptomania
+مركب كيميائي ; مركب	compound ; chemical compound
+مريول	apron
+مزاد	auction
+مسبحة	rosary
+مستعمرة	colony
+مسجد	mosque
+مشاجرة	argument
+مشروب	beverage ; drink
+مشكلة	problem
+مشمش	apricot
+مشيمة	placenta
+معادلة	equation
+معدة	stomach
+معلم	teacher
+معًا	together
+مغنيسيوم	magnesium
+مف	screwdriver
+مفص	joint ; articulation
+مفيد	useful
+مقدوني	Macedonia ; Republic of Macedonia
+مقدونية	Macedonian ; Macedonian
+مقصلة ; مقصلة ; مقصلة	guillotine ; guillotine ; guillotine
+مكان	place ; location
+مكة	Mecca
+مكتبة	library
+ملاك	angel
+ملاوي	Malawi ; Republic of Malaŵi
+ملحد	atheist
+ملغم	amalgam
+ملكـــــي	property ; asset
+ملكيّة	possession
+مليء	full
+ممباي	Mumbai ; Bombay
+منبه	alarm clock
+منجم	astrologer
+منجنيز	manganese
+منخر	nostril
+مندليفيوم	mendelevium
+مندي	handkerchief
+منصة	stage
+منطقة جزر البليار الذاتية الحكم	Balearic Islands
+منطقة زمنية	timezone
+مهجور	obsolete
+مهمة	assignment
+مهندس	engineer
+موتيت	motet
+مورفين	morphine
+موريتانيا	Mauritania ; Islamic Republic of Mauritania
+موزمبيق	Mozambique
+موسكو	Moscow
+موسيقار	musician
+موضوع	subject ; topic
+مولدافيا	Moldova
+موليبدنم	molybdenum
+موناكو	Monaco
+مونتسرات	Montserrat
+ميانمار	Myanmar
+ميتافيزيقيا	metaphysics
+ميثانول	methanol
+ميجابايت	megabyte
+ميلانو	Milan
+ميلووكي	Milwaukee
+مَارِس	March
+مَايُو	May
+مُؤتمر	conference
+مُذَنَّب	comet
+مُطْلَقا	absolutely
+مُعَقِّ	disinfectant
+مُميَّز	characteristic
+مِصْرُ	Egypt ; Arab Republic of Egypt
+مِلْح	salt
+مِنْدِيل	napkin
+ناميبيا	Namibia
+نبتون	Neptune
+نبتونيوم	neptunium
+نجمة	star
+نحاس	copper
+نحال	beekeeper ; apiculturist
+نحل	bee
+نحن	nosotros ; we
+نحّات	sculptor
+نرويج	Norway ; Kingdom of Norway
+نزف	haemorrhage ; bleeding
+نسيج واهن	web ; spider web
+نصيحة	advice
+نظارة	glasses ; spectacles
+نعامة	ostrich
+نعت	adjective ; describing word
+نكاف	mumps
+نمسا	Austria ; Republic of Austria
+نهاية الأسبوع	weekend
+نوبليوم	nobelium
+نوع من الزهور	orchid
+نوفيال	Novial
+نيبال	Nepal
+نيتروجين	nitrogen
+نيروبي	Nairobi
+نيكاراجوا	Nicaragua
+نيكل	nickel
+نيوبيوم	niobium
+نيوديميوم	neodymium
+نيوزيلاندا	New Zealand
+نيون	neon
+نَمِرٌ	tiger
+نَمْل	ant
+نُوفمْبر	November
+نّحل	bumblebee
+هاسيوم	hassium
+هايتي	Haiti ; Republic of Haiti
+هدنة	armistice
+هرمون	hormone
+هفنيوم	hafnium
+هلميوم	holmium
+هلوسة	hallucination
+هليكوبتر	helicopter
+هندسة زراعية	agricultural engineering
+هندوراس	Honduras ; Republic of Honduras
+هندية	Hindi ; Hindi
+هولندا	Holland ; Kingdom of the Netherlands ; The Netherlands
+هولندي	Dutch
+هيدروجين	hydrogen
+هيليوم	helium
+هَاتِف	phone ; telephone
+هَضْ	digestion
+واحد	one
+واشنطن	Washington
+واضح	explicit
+والس وفوتونا	Wallis and Futuna ; Territory of the Wallis and Futuna Islands
+وايومنغ	Wyoming
+وثني	heathen ; infidel ; pagan
+وحي	individual
+وزة	goose
+وصول	arrival
+ولزي	Welsh ; Welsh
+ويكاموس	Wiktionary
+ويكي	wiki
+ويكيبيديا	Wikipedia
+ويل	Wales
+وَلَدَ	deliver
+يأتي	come
+ياباني	Japanese ; Japanese
+ياقوت	ruby
+يانصيب	lottery
+يتريوم	yttrium
+يتي	orphan
+يحض	bring
+يخت	yacht
+يروبيوم	europium
+يشب	jade
+يشتري	buy ; purchase
+يضبط	adjust
+يفاجئ	surprise
+يكتب	write
+يموت	dye
+ينسون	anise
+يهز	laugh
+يود	iodine
+يورانيوم	uranium
+يوناني	Greek ; Greek
+يَنَايِر	January
+يُقَدِّر	appreciate
+يُولْيُو	July
+يُونْيُو	June
+‏السمريوم عنصر فلزي	samarium
+ﺍﺯﻧﻭﻟﻓﻧﺇ	influenza ; flu
+arabic	english

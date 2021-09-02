@@ -1,30 +1,60 @@
 import random
 import xml.etree.ElementTree as ET
-from typing import List
+from typing import Iterable, List
 import csv
 import os
 
-dirname = os.path.dirname(__file__)
-foldername = os.path.join(dirname, "translations")
 
-
-def get_file_path(filename: str):
-    return os.path.join(foldername, filename)
+def get_path_to_resource(filename: str, foldername: str = "translations", dirname: str = os.path.dirname(__file__)):
+    return os.path.join(dirname, foldername, filename)
 
 
 class Language:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, name: str, font: str, needsBasic=False) -> None:
+        self.name = name
+        filename = "".join([name, ".txt"])
+        self.definitions = []
 
-    def get_definition(self) -> List[str]:
-        return ["nothing", "at", "all"]
+        fonts = {
+            "arabic": "NotoSansArabic-Light.ttf",
+            "cjkjp": "NotoSerifCJKjp-ExtraLight.otf",
+            "devanagari": "NotoSansDevanagari-Light.ttf",
+            "bengali": "NotoSansBengali-Light.ttf",
+            "tamil": "NotoSansTamil-Light.ttf",
+            "telugu": "NotoSansTelugu-Regular.ttf",
+            "eur": "NotoSans-Light.ttf",
+        }
+        self.font = get_path_to_resource(foldername="fonts", filename=fonts[font])
+
+        if needsBasic:
+            self.definitions.extend(self.get_resource(folder="Omegawiki", filename=filename, offset=5, delimiter="\t"))
+            self.definitions.extend(self.get_resource(folder="Wikipedia", filename=filename, offset=5, delimiter="\t"))
+        random.shuffle(self.definitions)
+        self.definitions: Iterable[str] = iter(self.definitions)
+
+    def get_definition(self):
+        definition = next(self.definitions)
+        return definition[0].replace(";", "/"), "", definition[1].replace(";", "/"), False
+
+    def get_resource(self, folder, filename, offset, delimiter) -> List[str]:
+        path = os.path.join(folder, filename)
+        resource = get_path_to_resource(path)
+        lines = []
+        if os.path.isfile(resource):
+            translations = open(resource, "r", encoding="utf8").readlines()
+            lines = translations[offset:]
+
+        return [x.split(delimiter) for x in lines]
+
+    def __str__(self):
+        return self.name.title()
 
 
 class Cantonese(Language):
     def __init__(self) -> None:
-        super().__init__()
+        super().__init__("cantonese", "cjkjp")
 
-        with open(get_file_path("cantonese.txt"), "r", encoding="utf8") as source:
+        with open(get_path_to_resource("cantonese.txt"), "r", encoding="utf8") as source:
             for _ in range(12):
                 source.readline()
             self.definitions = source.readlines()
@@ -38,13 +68,13 @@ class Cantonese(Language):
         english: str = split_definition[1]
         character = characters_pinyin.split()[0]
 
-        return character, self.parse_jyutping(jyutping), self.parse_jyutping(english)
+        return character, self.parse_jyutping(jyutping), self.parse_jyutping(english), False
 
     def parse_jyutping(self, jyutping: str) -> str:
         return jyutping.replace("{", "}").replace("}", "")
 
     def get_definition(self):
-        return self.parse_definition(random.choice(self.definitions)), False
+        return self.parse_definition(random.choice(self.definitions))
 
 
 class Mandarin(Language):
@@ -77,9 +107,9 @@ class Mandarin(Language):
     }
 
     def __init__(self) -> None:
-        super().__init__()
+        super().__init__("mandarin", "cjkjp")
 
-        with open(get_file_path("mandarin.txt"), "r", encoding="utf8") as source:
+        with open(get_path_to_resource("mandarin.txt"), "r", encoding="utf8") as source:
             for _ in range(30):
                 source.readline()
             self.definitions = source.readlines()
@@ -133,14 +163,14 @@ class Mandarin(Language):
             return "i"
         return character
 
-    def get_definition(self) -> List[str]:
+    def get_definition(self):
         return self.parse_definition(random.choice(self.definitions))
 
 
 class Spanish(Language):
     def __init__(self) -> None:
-        super().__init__()
-        self.source = ET.parse(get_file_path("es-en.xml"))
+        super().__init__("spanish", "cjkjp")
+        self.source = ET.parse(get_path_to_resource("es-en.xml"))
 
     def get_definition(self):
         root = self.source.getroot()
@@ -151,9 +181,9 @@ class Spanish(Language):
 
 class Japanese(Language):
     def __init__(self) -> None:
-        super().__init__()
+        super().__init__("japanese", "cjkjp")
 
-        with open(get_file_path("heisig-kanjis.csv"), "r", encoding="utf8") as csv_file:
+        with open(get_path_to_resource("heisig-kanjis.csv"), "r", encoding="utf8") as csv_file:
             source = csv.DictReader(csv_file, delimiter=",")
             reader = source.reader
             self.definitions: List[str] = []
@@ -181,9 +211,9 @@ class Japanese(Language):
 
 class Russian(Language):
     def __init__(self) -> None:
-        super().__init__()
+        super().__init__("russian", "cjkjp")
 
-        with open(get_file_path("russian_nouns.csv"), encoding="utf8") as csv_file:
+        with open(get_path_to_resource("russian_nouns.csv"), encoding="utf8") as csv_file:
             source = csv.DictReader(csv_file, delimiter="\t")
             reader = source.reader
             self.definitions: List[str] = []
@@ -198,3 +228,97 @@ class Russian(Language):
         # think about adding some of the extra info the data set provides
 
         return rus, "{%s}" % gender, eng, False
+
+
+class Arabic(Language):
+    def __init__(self) -> None:
+        super().__init__("arabic", "arabic", True)
+
+
+class Bengali(Language):
+    def __init__(self) -> None:
+        super().__init__("bengali", "bengali", True)
+
+
+class French(Language):
+    def __init__(self) -> None:
+        super().__init__("french", "cjkjp", True)
+
+
+class German(Language):
+    def __init__(self) -> None:
+        super().__init__("german", "cjkjp", True)
+
+
+class Hindi(Language):
+    def __init__(self) -> None:
+        super().__init__("hindi", "devanagari", True)
+
+
+class Indonesian(Language):
+    def __init__(self) -> None:
+        super().__init__("indonesian", "cjkjp", True)
+
+
+class Korean(Language):
+    def __init__(self) -> None:
+        super().__init__("korean", "cjkjp", True)
+
+
+class Marathi(Language):
+    def __init__(self) -> None:
+        super().__init__("marathi", "devanagari", True)
+
+
+class Portuguese(Language):
+    def __init__(self) -> None:
+        super().__init__("portuguese", "cjkjp", True)
+
+
+class Swahili(Language):
+    def __init__(self) -> None:
+        super().__init__("swahili", "cjkjp", True)
+
+
+class Tamil(Language):
+    def __init__(self) -> None:
+        super().__init__("tamil", "tamil", True)
+
+
+class Telugu(Language):
+    def __init__(self) -> None:
+        super().__init__("telugu", "telugu", True)
+
+
+class Turkish(Language):
+    def __init__(self) -> None:
+        super().__init__("turkish", "eur", True)
+
+
+class Urdu(Language):
+    def __init__(self) -> None:
+        super().__init__("urdu", "arabic", True)
+
+
+# ISO_639-3 language abbreviations https://en.wikipedia.org/wiki/ISO_639-3
+LANGUAGES = {
+    "cmn": Mandarin,
+    "jpn": Japanese,
+    "rus": Russian,
+    "spa": Spanish,
+    "yue": Cantonese,
+    "arb": Arabic,
+    "ben": Bengali,
+    "fra": French,
+    "deu": German,
+    "hin": Hindi,
+    "ind": Indonesian,
+    "kor": Korean,
+    "mar": Marathi,
+    "por": Portuguese,
+    "swa": Swahili,
+    "tam": Tamil,
+    "tel": Telugu,
+    "tur": Turkish,
+    "urd": Urdu,
+}

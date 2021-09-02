@@ -1,0 +1,634 @@
+# Indonesian-English dictionary created from OmegaWiki database
+# Created on: 2021-09-01T21:52:49+00:00
+# Licence: GNU Free Documentation Licence http://www.gnu.org/copyleft/fdl.html
+# Download updated version of this file at: https://www.dicts.info/uddl.php
+# Contact us at: https://www.dicts.info/contact.php
+Abidjan	Abidjan
+Abkhazia	Abkhazia
+Abraham Lincoln	Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln ; Abraham Lincoln
+Adelaide	Adelaide
+Agustus	August
+Albania	Albania ; Republic of Albania
+Aljazair	Algeria ; People's Democratic Republic of Algeria
+Alkitab	Bible
+Alpen	Alps
+Andorra	Andorra ; Principality of Andorra
+Angola	Angola ; Republic of Angola
+Anguilla	Anguilla
+Antarktika	Antarctica
+Antigua dan Barbuda	Antigua and Barbuda
+Apus	Apus
+Aquarius	Aquarius
+Aquila	Aquila
+Arab Saudi	Saudi Arabia ; Kingdom of Saudi Arabia
+Argentina	Argentina ; Argentine Republic
+Aries	Aries
+Arizona	Arizona
+Armenia	Armenia
+Australia	Australia ; Commonwealth of Australia
+Austria	Austria ; Republic of Austria
+Azerbaijan	Azerbaijan ; Republic of Azerbaijan
+Bahasa Bengali	Bengali ; Bengali
+Bahasa Tajik	Tajik
+Bahasa Telugu	Telugu ; Telugu
+Bahasa Urdu	Urdu ; Urdu
+Bahasa Xhosa	Xhosa
+Bahrain	Bahrain
+Bangladesh	Bangladesh ; People's Republic of Bangladesh
+Belanda	Holland ; Kingdom of the Netherlands ; The Netherlands
+Belgia	Belgium ; Kingdom of Belgium
+Belize	Belize
+Belmopan	Belmopan
+Bermuda	Bermuda
+Betlehem	Bethlehem
+Bhutan	Bhutan ; Kingdom of Bhutan
+Bima Sakti ; Bimasakti	Milky Way ; Galaxy
+Birmingham	Birmingham
+Botswana	Botswana ; Republic of Botswana
+Bourgogne	Bourgogne
+Boötes	Boötes
+Brasil	Brazil
+Brunei	Brunei ; Negara Brunei Darussalam
+Bulgaria	Bulgaria ; Republic of Bulgaria
+Bumi	earth ; Earth ; the world ; Blue Planet
+Burundi	Burundi ; Republic of Burundi
+Cancer	Cancer
+Canes Venatici	Canes Venatici
+Canis Major	Canis Major
+Canis Minor	Canis Minor
+Capricornus	Capricorn
+Cassiopeia	Cassiopeia
+Chad	Chad ; Republic of Chad
+Charente	Charente
+Chihuahua	Chihuahua
+Chili	Chile ; Republic of Chile
+Corfu	Corfu
+Dagestan	Dagestan
+Dakar	Dakar
+Deflasi	deflation
+Denmark	Denmark ; Kingdom of Denmark
+Desember	December
+El Salvador	El Salvador ; Republic of El Salvador
+Epifani	Epiphany
+Eritrea	Eritrea
+Estonia	Estonia ; Republic of Estonia
+Ethiopia	Ethiopia ; Federal Democratic Republic of Ethiopia
+Faro	Faroese ; Faeroese
+Finlandia	Finland ; Republic of Finland
+Flevoland	Flevoland
+Frisia	Frisian ; Western Frisian
+Gabon	Gabon ; Gabonese Republic
+Gaborone	Gaborone
+Gambia	Gambia ; Gambia ; Gambia ; Gambia ; The Gambia ; Republic of The Gambia
+Gemini	Gemini
+Georgia	Georgia
+Georgia	Georgian ; Georgian
+Ghana	Ghana ; Republic of Ghana
+Gibraltar	Gibraltar
+Greenland	Greenland
+Grenada	Grenada
+Guadeloupe	Guadeloupe
+Guam	Guam ; Guam ; Guam
+Gunung Fuji	Mount Fuji
+Guyana Perancis	French Guiana
+H5N1	H5N1 ; Influenza A virus subtype H5N1 ; A(H5N1)
+Haiti	Haiti ; Republic of Haiti
+Hercules	Hercules
+Hongaria	Hungary ; Republic of Hungary
+India	India ; Republic of India
+Indonesia	Indonesia ; Republic of Indonesia
+Indre	Indre
+Irak	Iraq ; Republic of Iraq
+Iran	Iran ; Islamic Republic of Iran
+Irlandia	Ireland ; Republic of Ireland
+Israel	Israel ; State of Israel
+Italia	Italian Republic ; Italy
+Jakarta	Jakarta ; Djakarta ; DKI Jakarta
+Jamaika	Jamaica
+Jepang	Japan ; State of Japan
+Jerman	Germany ; Federal Republic of Germany
+Jersey	Jersey ; Bailiwick of Jersey
+Jupiter	Jupiter
+Kairo	Cairo
+Kaledonia Baru	New Caledonia
+Kamboja	Cambodia ; Kingdom of Cambodia
+Kamerun	Cameroon ; Republic of Cameroon
+KamusWiki	Wiktionary
+Kanada	Canada
+Kenya	Kenya ; Republic of Kenya
+Kepulauan Balears	Balearic Islands
+Kepulauan Cayman	Cayman Islands
+Kerajaan Inggris	United Kingdom ; United Kingdom of Great Britain and Northern Ireland ; UK
+Khartoum	Khartoum
+Kirgizstan	Kyrgyzstan ; Kyrgyz Republic
+Kiribati	Kiribati ; Republic of Kiribati
+Kroasia	Croatia ; Republic of Croatia
+Lagos	Lagos
+Lausanne	Lausanne
+Laut Aegea	Aegean Sea
+Laut Karibia	Caribbean Sea
+Leo	Leo
+Lesotho	Lesotho ; Kingdom of Lesotho
+Liberia	Liberia ; Republic of Liberia
+Libra	Libra
+Libya	Libya ; Great Socialist People's Libyan Arab Jamahiriya
+Lithuania	Lithuania ; Republic of Lithuania
+Lyon	Lyon
+Malawi	Malawi ; Republic of Malaŵi
+Malaysia	Malaysia
+Malta	Malta ; Republic of Malta
+Maroko	Morocco ; Kingdom of Morocco
+Martinique	Martinique
+Mauritania	Mauritania ; Islamic Republic of Mauritania
+Mayotte	Mayotte
+Mekkah	Mecca
+Merkurius	Mercury
+Mesir	Egypt ; Arab Republic of Egypt
+Milan	Milan
+Milwaukee	Milwaukee
+Monako	Monaco
+Montenegro	Montenegro
+Montserrat	Montserrat
+Myanmar	Myanmar
+Nairobi	Nairobi
+Namibia	Namibia
+Neptunus	Neptune
+New York	New York
+Niedersachsen	Lower Saxony
+Nikaragua	Nicaragua
+Niue	Niue
+Norwegia	Norway ; Kingdom of Norway
+Nuuk	Nuuk
+Orléans	Orleans
+Pakistan	Pakistan ; Islamic Republic of Pakistan
+Pantai Gading	Ivory Coast ; Cote d'Ivoire ; Republic of Cote d'Ivoire
+Papua Nugini	Papua New Guinea
+Paskah	Easter
+Peransis	France
+Peru	Peru ; Republic of Peru
+Philadelphia	Philadelphia
+Polandia	Poland
+Polinesia Perancis	French Polynesia
+Portugal	Portugal
+Puerto Riko	Puerto Rico
+Pulau Borneo	Borneo ; Kalimantan
+Pulau Bouvet	Bouvet Island
+Pulau Christmas	Christmas Island
+Qatar	Qatar
+Raja Matahari	Sun King
+Republik Demokratik Kongo	Democratic Republic of the Congo ; Congo-Kinshasa
+Republik Dominika	Dominican Republic
+Rumania	Romania
+Sagittarius	Sagittarius
+Saint-Pierre dan Miquelon	Saint-Pierre and Miquelon
+Samoa Amerika	American Samoa
+Saturnus	Saturn
+Scorpius	Scorpio
+Selamat Hari Natal	Merry Christmas
+Selandia Baru	New Zealand
+Senegal	Senegal
+Serbia	Serbia
+Siprus	Cyprus ; Republic of Cyprus
+Slowakia	Slovakia
+Spanyol	Spain
+Sri Lanka	Sri Lanka
+St. Petersburg	Leningrad ; Petrograd ; Saint Petersburg ; St. Petersburg
+Sudan ; Súdan	Sudan
+Sungai Seine	Seine
+Suriname	Suriname
+Swedia	Sweden
+Swiss	Switzerland
+Taiwan	Taiwan
+Tanzania	Tanzania
+Taurus	Taurus
+Tennessee	Tennessee
+Teritorial Britania di Samudra Hindia	British Indian Ocean Territory ; BIOT
+Thailand	Thailand
+Thüringen	Thuringia
+Timor Timur	East Timor ; Democratic Republic of Timor-Leste
+Togo	Togo
+Tonga	Tonga
+Toronto	Toronto
+Turki	Turkey
+Uganda	Uganda ; Republic of Uganda
+Uni Eropa	EU ; European Union
+Uranus	Uranus
+Utah	Utah
+Vaduz	Vaduz
+Vatikan	Vatican City ; The Holy See ; State of the Vatican City
+Venesia	Venice
+Venezuela	Venezuela
+Venus	Venus
+Wallis dan Futuna	Wallis and Futuna ; Territory of the Wallis and Futuna Islands
+Yordania	Jordan ; Hashemite Kingdom of Jordan
+Yunani	Greece ; Hellenic Republic
+Zambia	Zambia ; Republic of Zambia
+Zanzibar	Zanzibar
+Zimbabwe	Zimbabwe ; Republic of Zimbabwe
+aberikos	apricot
+agresif	aggressive
+air	water
+akordeon	accordion ; squeeze box ; piano accordion
+aktinium	actinium
+akuarium	aquarium
+akuntansi	accountancy
+alat musik	instrument ; musical instrument
+alkimia	alchemy
+alkoholisme	alcoholism
+almanak	almanac
+aluminium	aluminium
+ambar	amber
+ambisi	aspiration
+amfetamin	amphetamine
+amplitudo	aAmplitude ; amplitude
+anarkisme	anarchism
+angin topan ; badai	storm ; tempest
+angsa	goose
+anjing	dog
+antropologi	anthropology
+apartheid	apartheid
+apel	apple
+apoptosis	apoptosis
+apotek	chemist's ; chemist's shop ; pharmacy
+apoteker	chemist ; pharmacist
+april	April
+arkeologis	archaeological
+asbak	ashtray
+asbestos	asbestos
+aspal	asphalt
+astatin	astatine
+asteroide	asteroid
+astrometri	astrometry
+atap	roof ; roof ; roof
+bahasa Belanda	Dutch
+bahasa Jawa	Javanese
+bahasa Jerman	German
+bahasa Yiddish	Yiddish
+bahasa resmi	official language
+balada	ballad
+barium	barium
+barometer	barometer
+beatifikasi	beatification
+bebek	duck
+beguk	mumps
+belerang	sulphur
+berani	audacious
+beri biru	huckleberry ; blueberry
+berilium	beryllium ; glucinium
+berkelium	berkelium
+berpakaian	attire
+bersama ; bareng	together
+beruang kutub	polar bear
+berudu	tadpole ; polliwog
+berwenang	authoritative
+besi	iron
+bilangan prima	prime number ; prime
+bintang	star
+bioma	biome
+bir	beer
+birokrasi	bureaucracy
+biru	blue
+bismut	bismuth
+bisu	dumb
+boneka	doll
+bonsai	bonsai
+boron	boron
+brokoli	broccoli
+brom	bromine
+buah pir	pear
+buat ; melakukan	do
+bulutangkis	badminton
+bungkul	cauliflower
+burung unta	ostrich
+buta	blind
+campuran	assorted
+celana	trousers
+cerdik	artful
+cerutu	cigar
+chihuahua	Chihuahua ; chihuahua
+cucu lelaki	grandson
+cuka	vinegar
+cápa	shark
+dan ; serta	and ; as well as ; in addition to ; together with ; too
+darurat	emergency
+demam berdarah	dengue fever
+demokrasi	democracy
+dengan	alongside ; amongst ; with
+dermatologi	dermatology
+dialek	dialect
+disprosium	dysprosium
+dokter anak	paediatrician
+dokter gigi	dentist
+domba	sheep
+emas	gold
+epilepsi	epilepsy
+episenter	epicentre
+erbium	erbium
+etika	ethics
+europium	europium
+fasisme	fascism
+filologi	philology
+filsafat	philosophy
+fisiologia	physiology
+fluor	fluorine
+flute	flute
+fosfor	phosphorus
+fransium	francium
+galium	gallium
+gas	gas
+genom	genome
+germanium	germanium
+glikolisis ; glicolisi	glycolysis
+gonorhea	gonorrhea
+guillotine	guillotine ; guillotine ; guillotine
+gunung es	iceberg
+haiku	haiku
+halangangan	obstacle ; obstruction
+hampir ; nyaris	almost
+helikopter	helicopter
+helium	helium
+hematologi	haematology
+heroin	heroin
+historiografi	historiography
+horison	horizon
+hormon	hormone
+hukuman mati	death penalty ; capital punishment ; death sentence
+ibu jari	thumb
+ideologi	ideology
+indium	indium
+indónesíska ; bahasa Indonesia	Indonesian
+inflasi	inflation
+iridium	iridium
+itrium	yttrium
+jade	jade
+jam	hour
+januari	January
+jari kelingking	little finger ; pinkie
+jazz	jazz
+jendral	general
+jual ; menjual	sell
+juni	June
+jurnalis	journalist
+jurnalisme	journalism
+kafein	caffeine
+kaki	leg
+kalender	calendar
+kalium	potassium
+kalkun	turkey
+kalsium	calcium
+kamuflase	camouflage
+kamus	dictionary
+karate	karate
+kata	word
+kata benda	noun ; substantive
+kata depan	preposition
+kata kerja	verb
+kayu	wood
+kecelakaan ; musibah	accident
+kehamilan	pregnancy
+keheranan	astonishment
+kejahatan	crime
+kekeja ; kekejaman	atrocity
+kekuasaan	ascendancy
+kelenjar	gland
+kelinci	rabbit
+kembar	twin
+kemiskinan	poverty
+kependudukan	demography
+kering	dry
+khatulistiwa	equator
+klitoris	button ; clit ; clitoris
+kobal	cobalt
+koelkas	refrigerator ; fridge
+kolesterol	cholesterol
+komunisme	communism
+konferensi	conference
+kripton	krypton
+kristal	crystal
+kromium	chromium
+kromosom	chromosome
+kuda	horse
+kupu-kupu	butterfly
+kursi	chair
+kursi roda	wheelchair
+lantanum	lanthanum
+lensa	lens
+liberalisme	liberalism
+limau	lemon
+limnologi	limnology
+litografi	lithography
+logika	logic
+luka	wound
+lumba-lumba	dolphin
+lutesium	lutetium
+madu	honey
+malaikat	angel
+malaria	malaria
+mangan	manganese
+marsupial	marsupial
+mayones	mayonnaise
+melayani	attend
+memaksakan	assert
+membantu	assist
+membeli	buy ; purchase
+memperhatikan	attend
+menangani	attend
+menarik	atractive
+menarik	attract
+mencapai	attain
+mencernakan	assimilate
+menemukan	ascertain
+mengagumkan	astonishing
+mengejutkan	astounding
+mengherankan	astonish
+mengikuti	attend
+mengumpulkan	assemble ; get together ; gather
+menguntungkan	auspicious
+meningkatkan	augment
+menugaskan	assign
+menyatakan	assert
+menyayangi	attached
+menyembelih	slaughter
+menyetujui	assent
+menyukai	attachment
+merkurius	mercury
+merpati	pigeon ; dove
+mesjid	mosque
+metafisika	metaphysics
+meteor ; meteor ; meteor ; meteor ; meteor	meteor ; meteor ; meteor ; meteor ; meteor ; shooting star ; falling star
+meteorit	meteorite
+mikrofon	microphone
+mineralogi	mineralogy
+minuman	beverage ; drink
+misterius	mysterious
+molibdenum	molybdenum
+morfin	morphine
+museum	museum
+nasi ; padi	rice
+neodimium	neodymium
+neologisme	neologism
+neon	neon
+neptunium	neptunium
+neurologi	neurology
+nikel	nickel
+niobium	niobium
+nitrogen	nitrogen
+nol	zero ; null
+obesitas	obesity
+oktaf	octave
+oligarhija ; oligarchia	oligarchy
+oligopoli	oligopoly
+onkologi	oncology
+opera	opera
+optik	optics
+osmium	osmium
+otokrasi	autocracy
+otopsi	autopsy
+ovarium	ovary
+pakaian	attire
+paladium	palladium
+palma	palm
+pankreas	pancreas
+pedagang	merchant
+pedang	sword
+pelangi ; bianglala	rainbow
+pembunuh	assassin ; assassinator
+pencernaan	digestion
+pendakian	ascent
+penjaga	attendant
+penjagal	butcher
+pensil	pencil
+penuh	full
+penyakit menular	infectious disease ; communicable diseases
+penyerang	aggressor ; assailant ; attacker ; assaulter
+perak	silver
+perang dunia	world war
+perbatasan	boundary
+perceraian	divorce
+perpustakaan	library
+persamaan	equation
+persetujuan	assent
+phishing	phishing
+pintu	door
+pirolisis	pyrolysis
+pisang	banana
+plasma darah	blood plasma
+platina	platinum
+plutonium ; plutonium ; plutonium	plutonium ; plutonium ; plutonium
+pohon	tree
+pohon Natal	Christmas tree
+polimer	polymer
+polonium	polonium
+pompa	pump
+posisi	attitude
+praseodimium	praseodymium
+prometium	promethium
+prostat	prostate
+pucat	ashen
+pusat	belly button ; bellybutton ; navel ; omphalos ; omphalus ; umbilicus
+putih	white
+radiologi	radiology
+radium	radium
+radon	radon
+rahasia	secret
+rantai makanan	food chain
+referendum	referendum ; plebiscite
+renium	rhenium
+rhodium	rhodium
+ribu	thousand
+rijang	flint ; flintstone
+rok mini	miniskirt ; mini-skirt
+rokok	cigarette
+roti	bread
+ruang dansa	ballroom
+rubi	ruby
+rubidium	rubidium
+rumah	home ; home ; house
+rutenium	ruthenium
+rutherfordium	rutherfordium
+sahara	sahara
+samarium	samarium
+sampanye	champagne
+sapu tangan	handkerchief
+sayur mayur	vegetable
+seaborgium	seaborgium
+selamat tahun baru	Happy New Year
+seledri	celery
+selenium	selenium
+semenanjung	peninsula
+semut	ant
+seng	zinc
+sengaja	arson
+senyawa kimia	compound ; chemical compound
+sepeda	bicycle ; bike ; cycle
+serium	cerium
+sesium	caesium
+sifilis	syphilis
+siku	elbow
+silikon	silicon
+sinagoga	synagogue
+sindrom	syndrome
+skandium	scandium
+sofandi	asleep
+sosiolinguistik	sociolinguistics ; sociology of language
+sphinx	sphinx
+stronsium	strontium
+sumbangan	donation
+supernova	supernova
+tahanan perang	prisoner of war ; POW ; PoW ; PW
+talium	thallium
+tanjakan	ascent
+tantalum	tantalum
+teh	tea
+teka-teki silang ; TTS	crossword
+teknesium	technetium
+telapak atas	instep
+telepon	phone ; telephone
+telurium	tellurium
+tembaga	copper
+tengkorak	skull
+teokrasi	theocracy
+teologi	theology
+teori chaos	chaos theory
+terjemah	translate ; interpret
+terkejut	aback
+terkejut	astound
+terminologi	terminology
+terompet	trumpet
+tersedia	available
+testosteron	testosterone
+tetangga	neighbour ; vecino
+tidak	no
+timah	tin
+timbal	lead
+tiram	oyster
+titanium	titanium
+toko roti	baker ; bakery
+tomat	tomato
+tombak	pike ; spear
+topologi	topology
+torium	thorium
+torpedo	torpedo
+trombon	trombone
+tugas	assignment
+tuli	deaf
+tulip	tulip
+tuna	tunafish
+tupai chipmunk	chipmunk
+universitas ; universitas	university ; university ; academy
+ununbium	ununbium
+ununoktium	ununoctium
+uranium	uranium
+vanadium	vanadium
+wetterstof	hydrogen
+wolfram	tungsten
+xenon	xenon
+yak	yak
+yodium	iodine
+yudo	judo
+zat asam arang	carbon dioxide
+zebra	zebra
+zirkonium	zirconium
+zona waktu	timezone
+Åland	Åland Islands
+indonesian	english

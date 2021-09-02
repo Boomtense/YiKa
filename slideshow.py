@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageDraw, ImageFont, ImageTk
-from languages import Language, Cantonese, Mandarin, Japanese, Russian, Spanish
+from languages import Language, LANGUAGES
 from utils import title_case
 import textwrap
 import sys
@@ -9,9 +9,6 @@ import argparse
 
 dirname = os.path.dirname(__file__)
 font_dir = os.path.join(dirname, "fonts")
-
-# ISO_639-3 language abbreviations https://en.wikipedia.org/wiki/ISO_639-3
-LANGUAGES = {"cmn": Mandarin, "jpn": Japanese, "rus": Russian, "spa": Spanish, "yue": Cantonese}
 
 
 class MySlideShow(tk.Tk):
@@ -72,7 +69,7 @@ class MySlideShow(tk.Tk):
 
     def generateImage(self, character: str, pronunciation: str, english: str, right_align: bool = False):
         english_list = textwrap.wrap(english, width=70)
-        font_family = os.path.join(font_dir, "NotoSerifCJKjp-hinted", "NotoSerifCJKjp-ExtraLight.otf")
+        font_family = self.lang.font
         scr_w, scr_h = self.winfo_screenwidth(), self.winfo_screenheight()
         image = Image.new("RGB", (scr_w, scr_h), color=(73, 109, 137))
         from_size: int = 250
@@ -90,6 +87,7 @@ class MySlideShow(tk.Tk):
             font=unicode_font,
         )
 
+        font_family = os.path.join(font_dir, "NotoSerifCJKjp-ExtraLight.otf")
         english_offset = 0
         for e in english_list:
             unicode_font = ImageFont.truetype(font_family, 50)
@@ -148,8 +146,11 @@ if __name__ == "__main__":
     iso_id = args.lang
 
     if iso_id == None:
-        print("cmn - Mandarin\njpn - Japanese\nrus - Russian\nspa - Spanish\nyue - Cantonese\n")
-        iso_id = input("Enter language code:\n")
+        instructions = [" "]
+        for code in LANGUAGES.keys():
+            instructions.append(" - ".join([code, str(LANGUAGES[code]())]))
+        print("\n".join(instructions))
+        iso_id = input("\nEnter language code:\n")
 
     iso_id = iso_id.lower()
 

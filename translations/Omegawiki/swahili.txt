@@ -1,0 +1,436 @@
+# Swahili-English dictionary created from OmegaWiki database
+# Created on: 2021-09-01T21:55:37+00:00
+# Licence: GNU Free Documentation Licence http://www.gnu.org/copyleft/fdl.html
+# Download updated version of this file at: https://www.dicts.info/uddl.php
+# Contact us at: https://www.dicts.info/contact.php
+-dogo	short ; small
+-kavu	dry
+-kubwa	big ; large
+-pya	new ; novel
+-zito	heavy
+Abidjan	Abidjan
+Afrika Kusini	South Africa
+Agosti	August
+Alhamisi	Thursday
+Aprili	April
+Bahari ya Karibi	Caribbean Sea
+Bahrain	Bahrain
+Bangla Desh	Bangladesh ; People's Republic of Bangladesh
+Botswana	Botswana ; Republic of Botswana
+Bulgaria	Bulgaria ; Republic of Bulgaria
+Burundi	Burundi ; Republic of Burundi
+Chad	Chad ; Republic of Chad
+Chile	Chile ; Republic of Chile
+Desemba	December
+El Salvador	El Salvador ; Republic of El Salvador
+Eneo la Uingereza katika Bahari Hindi	British Indian Ocean Territory ; BIOT
+Eritrea	Eritrea
+Februari	February
+Gaborone	Gaborone
+Georgia	Georgia
+Ghana	Ghana ; Republic of Ghana
+Grenada	Grenada
+Haiti	Haiti ; Republic of Haiti
+Heri kwa mwaka mpya	Happy New Year
+Honduras	Honduras ; Republic of Honduras
+Iceland	Iceland ; Republic of Iceland
+Ijumaa	Friday
+Jakarta	Jakarta ; Djakarta ; DKI Jakarta
+Jamaika	Jamaica
+Jamhuri ya Dominika	Dominican Republic
+Jamhuri ya Kenya	Kenya ; Republic of Kenya
+Januari	January
+Japani	Japan ; State of Japan
+Julai	July
+Jumamosi	Saturday
+Jumanne	Tuesday
+Jumapili	Sunday
+Jumatano	Wednesday ; quarta-feira
+Jumatatu	Monday
+Juni	June
+Khartoum	Khartoum
+Kiafrikans	Afrikaans
+Kiaislandi	Icelandic
+Kibulgaria	Bulgarian ; Bulgarian
+Kidenmarki	Danish
+Kiestonia	Estonian
+Kifaransa	French ; French
+Kifinlandia	Finnish
+Kigujarati	Gujarati ; Gujarati
+Kihindi	Hindi ; Hindi
+Kihispania	Castilian ; Spanish ; Spanish
+Kihungari	Hungarian
+Kiindonesia	Indonesian
+Kiingereza	English
+Kiitaliano	Italian ; Italian
+Kijapani	Japanese ; Japanese
+Kikatalan	Catalan ; Catalan
+Kikhmeri	Khmer ; Central Khmer
+Kikroashia	Croatian ; Croation
+Kikyrili	Cyrillic alphabet
+Kilatvia	Latvian ; Latvian
+Kipolandi	Polish ; Polish
+Kireno	Portuguese ; Portuguese
+Kirgizia	Kyrgyzstan ; Kyrgyz Republic
+Kiromania	Romanian ; Romanaian
+Kirusi	Russian ; Russian
+Kislovakia	Slovak ; Slovak
+Kislovenia	Slovene ; Slovenian ; Slovenian
+Kiswahili	Swahili
+Kisweden	Swedish
+Kituruki	Turkish ; Turkish
+Kiukrania	Ukrainian ; Ukrainian
+Kiyahudi	Hebrew
+Kizulu	Zulu
+Lesotho	Lesotho ; Kingdom of Lesotho
+Liberia	Liberia ; Republic of Liberia
+Libya	Libya ; Great Socialist People's Libyan Arab Jamahiriya
+Machi	March
+Malaysia	Malaysia
+Martinique	Martinique
+Mauritania	Mauritania ; Islamic Republic of Mauritania
+Mei	May
+Misri	Egypt ; Arab Republic of Egypt
+Montenegro	Montenegro
+Moroko	Morocco ; Kingdom of Morocco
+Myanmar	Myanmar
+Nairobi	Nairobi
+Namibia	Namibia
+Norwei	Norway ; Kingdom of Norway
+Novemba	November
+Oktoba	October
+Pakistan	Pakistan ; Islamic Republic of Pakistan
+Pasaka	Easter
+Poland	Poland
+Qatar	Qatar
+Ramadhani	Ramadan
+Saint-Pierre na Miquelon	Saint-Pierre and Miquelon
+Septemba	September
+Slovakia	Slovakia
+Sri Lanka	Sri Lanka
+Sudan	Sudan
+Tanzania	Tanzania
+Timor ya Mashariki	East Timor ; Democratic Republic of Timor-Leste
+Togo	Togo
+Uajemi	Iran ; Islamic Republic of Iran
+Ubelgiji	Belgium ; Kingdom of Belgium
+Ufaransa	France
+Uganda	Uganda ; Republic of Uganda
+Ugiriki	Greece ; Hellenic Republic
+Uholanzi	Holland ; Kingdom of the Netherlands ; The Netherlands
+Ujerumani	Germany ; Federal Republic of Germany
+Unguja	Zanzibar
+Ureno	Portugal
+Uswidi	Sweden
+Uswisi	Switzerland
+Uturuki	Turkey
+Vatikani	Vatican City ; The Holy See ; State of the Vatican City
+Wallis na Futuna	Wallis and Futuna ; Territory of the Wallis and Futuna Islands
+Zambia	Zambia ; Republic of Zambia
+a tunu	valuable
+adui	enemy
+afisi ya posta	post office
+aloi	alloy
+alumini	aluminium
+andika	write
+asali	honey
+askofu	bishop
+astatini	astatine
+au	or
+baba	father
+babu	grandfather
+bahari	sea
+baisikeli	bicycle ; bike ; cycle
+bandari	harbour
+barafu	ice
+basi	bus ; coach
+bata mzinga	turkey
+bei	price
+berili	beryllium ; glucinium
+bia	beer
+bilauri	glass
+bismuthi	bismuth
+bofulo ; mkate	bread
+boroni	boron
+bromi	bromine
+buibui	spider
+cadimi	cadmium
+caesi	caesium
+chacha	yeast
+chakula	food
+chamshakinywa	breakfast
+cheka	laugh
+chemli	lantern
+chizi	cheese
+chlorini	chlorine
+chromi	chromium
+chui	leopard
+chuma	iron
+chumvi	salt
+chungwa	orange
+chura	frog
+dakika	minute
+damu	blood
+daraja	bridge
+darmstadti	darmstadtium
+dhahabu	gold
+dhoruba ; tufani	storm ; tempest
+dini	religion
+dirisha	window
+duka	shop
+duka la madawa	chemist's ; chemist's shop ; pharmacy
+embe	mango
+emeli	electronic mail ; email ; e-mail
+fanya	do
+fedha	silver
+filimbi	clarinet
+florini	fluorine
+fransi	francium
+fundisha	teach
+gali	gallium
+gari	car ; automobile
+gerimani	germanium
+gugu	weed
+hafni	hafnium
+harisha	diarrhea
+heli	helium
+hewa	air
+hidrojeni	hydrogen
+iodini	iodine
+jicho	eye
+jiji	metropolis
+jina	name ; proper name ; proper noun
+jino	molar ; tooth
+jiografia	geography
+jirani	neighbour ; vecino
+jivu	ash
+joto	heat
+kali	potassium
+kalisi	calcium
+kamaflaji	camouflage
+kamusi	dictionary
+kandambili	slipper
+kanisa	church
+kaskazi	summer
+katarasi	paper
+kazi	employment ; employment ; job ; job ; occupation ; work ; work
+kazi	labour
+kelele	noise ; noise, vibrations ; racket
+kesho	tomorrow
+kiatu	shoe
+kiazi	potato ; patato
+kichwa	head
+kidole	finger
+kidonda	wound
+kidube	mysterious
+kifaru	rhino ; rhinoceros
+kijiji	village
+kijiko ; mwiko	spoon
+kikombe	trophy
+kilima	colina ; hill ; loma
+kilithuania	Lithuanian ; Lithuanian
+kilogramu	kilogram
+kinyozi	hairdresser ; barber
+kinywa	beak ; mouth
+kipaji	donation
+kisa	story
+kisima	water well
+kisiwa	island ; isle
+kisu	knife
+kitabu	book
+kitambaa	handkerchief
+kitanda	bed
+kiti	chair
+kitovu	belly button ; bellybutton ; navel ; omphalos ; omphalus ; umbilicus
+kitunguu	onion
+kiu	thirst
+kiungo	joint ; articulation
+kizuio	obstacle ; obstruction
+kobalti	cobalt
+kondoo	sheep
+kriptoni	krypton
+kuingia	enter
+kuja	come
+kujiua	suicide
+kula	consume ; eat ; swallow
+kununua ; nunua	buy ; purchase
+kunywa	drink ; gulp ; quaff ; sip
+kweli	truth
+limau	lemon
+lithi	lithium
+lugha	language
+maabara	laboratory
+majani	grass
+maji	water
+maktaba	library
+mama	mother
+mamba	crocodile
+manjano	yellow
+manyonya	wool
+mapenzi	love
+matubwitubwi	mumps
+matumaini	hope
+maziwa	milk
+mboga	vegetable
+mbuni	ostrich
+mbwa	dog
+mbweha	jackal
+mchanga	sand
+mchawi	wizard ; sorcerer ; magician
+mchele ; mpunga	rice
+mchezo	game
+mchungaji	shepherd
+mdudu	insect
+meli	ship
+meza	table
+mfiwa	orphan
+mganga wa meno	dentist
+mguu	leg
+mifupa	skeleton
+mikrofoni	microphone
+mimba	pregnancy
+miwani	glasses ; spectacles
+mji	city
+mji mkuu	capital
+mke	wife ; spouse
+mlango	door
+mlevi	drunk ; drunkard ; boozer
+mlima	mountain
+mlio	sound
+mmomonyoko	erosion
+mnyama	animal
+moto	fire
+mpiga muziki	musician
+mshahara	salary
+mshale	arrow
+mshona	tailor
+mshumaa	candle
+msichana	girl
+mti	tree
+mto	river
+mtoto	child
+mtu ; mwanadamu	man
+mume	husband ; spouse
+muziki	music
+mvua	rain
+mvulana	boy
+mwalimu	teacher
+mwanamke	female ; woman
+mwanamume	male ; man
+mwanasheria	lawyer
+mwenye	owner
+mwezi	month
+mwezi	moon ; moon ; satelite ; satelite
+mwokaji	baker
+mzinga	beehive
+natiri	sodium
+nazi	kokosnoot ; coconut
+ndege	aircraft
+ndizi	banana
+neoni	neon
+neptuni	neptunium
+ngozi	leather
+nikeli	nickel
+niobi	niobium
+nitrojeni	nitrogen
+nyama	meat
+nyani	gorilla
+nyani	baboon
+nyanya	tomato
+nyoka	snake
+nyuki	wasp
+nyumba	home ; home ; house
+nywele	hair
+nzige	locust
+oksijeni	oxygen
+paka	cat
+pakia ; safirisha	export
+paladi	palladium
+papa	shark
+pembetatu	triangle
+pikipiki	motorcycle ; motorbike
+platini	platinum
+poloni	polonium
+posferi	phosphorus
+pua	nose
+pumkini	napkin
+punda	donkey ; ass
+pwani	coast
+radi	radium
+radoni	radon
+rangi	colour ; colour ; colo(u)r
+redio	radio
+risasi	lead
+rodi	rhodium
+roentgeni	roentgenium
+rutherfordi	rutherfordium
+saa	hour
+sabuni	soap
+safiri	travel
+samaki	fish
+seleni	selenium
+shaba	copper
+shamba	field ; land ; land ; acre ; patch
+shamba	farm
+shukrani	thank you
+shule	school
+siagi	butter
+siaza	politics
+sigareti	cigarette
+sikio	ear
+simba	lion
+simu	phone ; telephone
+sirinji	syringe
+sisimizi	ant
+soda	beverage ; drink
+soda ; kinywaji	beverage ; drink
+soko	square
+soma	read
+stani	tin
+stronti	strontium
+sukari	sugar
+sulfuri	sulphur
+sumu	poison
+suruali	trousers
+swali	question
+tafsiri	translation
+tali	thallium
+tango	cucumber
+tekineti	technetium
+teluri	tellurium
+tembo	elephant
+theluji	snow
+titani	titanium
+topito	torpedo
+treni ; garimoshi	train
+twiga	giraffe
+ua	flower ; bloom ; blossom
+ugonjwa	disease ; illness ; affliction
+uhuru	freedom ; liberty
+ujaa	hunger ; hunger ; hunger
+ukaburu	apartheid
+ukuta	wall
+ulimi	tongue
+uma	fork
+umri	age
+ununheksi	ununhexium
+unyonya	feather
+upepo	wind
+urani	uranium
+usi	eyebrow
+usingizi	sleep
+uso	face
+utambi	web ; spider web
+uza	sell
+vanadi	vanadium
+watu	people
+wiki ; juma	week
+wikiendi	weekend
+wino	ink
+xenoni	xenon
+yai	egg
+ytri	yttrium
+zebaki	mercury
+zinki	zinc
+zirikoni	zirconium
+ziwa	lake
