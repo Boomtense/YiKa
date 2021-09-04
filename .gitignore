@@ -2,6 +2,9 @@ cedict_ts.u8
 unifont_jp-13.0.06.ttf
 settings.json
 NotoSans*/
+NotoSerif*/
+dist/
+build/
 
 __pycache__
 .vscode

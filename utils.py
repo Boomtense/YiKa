@@ -1,4 +1,6 @@
 import re
+import os
+import sys
 
 
 def title_case(s: str) -> str:
@@ -9,3 +11,8 @@ def title_case(s: str) -> str:
         .replace("Ii", "II")
         .replace("'T", "'t")
     )
+
+
+def get_path_to_resource(filename: str, foldername: str = "translations"):
+    dirname: str = getattr(sys, "_MEIPASS", os.path.dirname(__file__))
+    return os.path.join(dirname, foldername, filename)

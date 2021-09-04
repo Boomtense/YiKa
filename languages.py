@@ -1,12 +1,9 @@
+from typing import Iterable, List
+from utils import get_path_to_resource
 import random
 import xml.etree.ElementTree as ET
-from typing import Iterable, List
 import csv
 import os
-
-
-def get_path_to_resource(filename: str, foldername: str = "translations", dirname: str = os.path.dirname(__file__)):
-    return os.path.join(dirname, foldername, filename)
 
 
 class Language:
@@ -46,8 +43,8 @@ class Language:
 
         return [x.split(delimiter) for x in lines]
 
-    def __str__(self):
-        return self.name.title()
+    def to_string():
+        return "name"
 
 
 class Cantonese(Language):
@@ -75,6 +72,9 @@ class Cantonese(Language):
 
     def get_definition(self):
         return self.parse_definition(random.choice(self.definitions))
+
+    def to_string():
+        return "Cantonese"
 
 
 class Mandarin(Language):
@@ -108,7 +108,6 @@ class Mandarin(Language):
 
     def __init__(self) -> None:
         super().__init__("mandarin", "cjkjp")
-
         with open(get_path_to_resource("mandarin.txt"), "r", encoding="utf8") as source:
             for _ in range(30):
                 source.readline()
@@ -166,6 +165,9 @@ class Mandarin(Language):
     def get_definition(self):
         return self.parse_definition(random.choice(self.definitions))
 
+    def to_string():
+        return "Mandarin"
+
 
 class Spanish(Language):
     def __init__(self) -> None:
@@ -177,6 +179,9 @@ class Spanish(Language):
         letter_group = random.choice(root)
         word = random.choice(letter_group)
         return word[0].text, word[2].text, word[1].text, False
+
+    def to_string():
+        return "Spanish"
 
 
 class Japanese(Language):
@@ -208,6 +213,9 @@ class Japanese(Language):
 
         return kanji, pronunciation, english, True
 
+    def to_string():
+        return "Japanese"
+
 
 class Russian(Language):
     def __init__(self) -> None:
@@ -229,75 +237,120 @@ class Russian(Language):
 
         return rus, "{%s}" % gender, eng, False
 
+    def to_string():
+        return "Russian"
+
 
 class Arabic(Language):
     def __init__(self) -> None:
         super().__init__("arabic", "arabic", True)
+
+    def to_string():
+        return "Arabic"
 
 
 class Bengali(Language):
     def __init__(self) -> None:
         super().__init__("bengali", "bengali", True)
 
+    def to_string():
+        return "Bengali"
+
 
 class French(Language):
     def __init__(self) -> None:
         super().__init__("french", "cjkjp", True)
+
+    def to_string():
+        return "French"
 
 
 class German(Language):
     def __init__(self) -> None:
         super().__init__("german", "cjkjp", True)
 
+    def to_string():
+        return "German"
+
 
 class Hindi(Language):
     def __init__(self) -> None:
         super().__init__("hindi", "devanagari", True)
+
+    def to_string():
+        return "Hindi"
 
 
 class Indonesian(Language):
     def __init__(self) -> None:
         super().__init__("indonesian", "cjkjp", True)
 
+    def to_string():
+        return "Indonesian"
+
 
 class Korean(Language):
     def __init__(self) -> None:
         super().__init__("korean", "cjkjp", True)
+
+    def to_string():
+        return "Korean"
 
 
 class Marathi(Language):
     def __init__(self) -> None:
         super().__init__("marathi", "devanagari", True)
 
+    def to_string():
+        return "Marathi"
+
 
 class Portuguese(Language):
     def __init__(self) -> None:
         super().__init__("portuguese", "cjkjp", True)
+
+    def to_string():
+        return "Portuguese"
 
 
 class Swahili(Language):
     def __init__(self) -> None:
         super().__init__("swahili", "cjkjp", True)
 
+    def to_string():
+        return "Swahili"
+
 
 class Tamil(Language):
     def __init__(self) -> None:
         super().__init__("tamil", "tamil", True)
+
+    def to_string():
+        return "Tamil"
 
 
 class Telugu(Language):
     def __init__(self) -> None:
         super().__init__("telugu", "telugu", True)
 
+    def to_string():
+        return "Telugu"
+
 
 class Turkish(Language):
     def __init__(self) -> None:
         super().__init__("turkish", "eur", True)
 
+    def to_string():
+        return "Turkish"
+
 
 class Urdu(Language):
     def __init__(self) -> None:
         super().__init__("urdu", "arabic", True)
+
+    def to_string():
+        return "Urdu"
 
 
 # ISO_639-3 language abbreviations https://en.wikipedia.org/wiki/ISO_639-3

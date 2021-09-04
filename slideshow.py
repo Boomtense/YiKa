@@ -1,14 +1,14 @@
 import tkinter as tk
-from PIL import Image, ImageDraw, ImageFont, ImageTk
+from PIL import Image, ImageDraw, ImageFont
+from PIL import ImageTk
+from PIL.ImageTk import BitmapImage
 from languages import Language, LANGUAGES
-from utils import title_case
+from utils import title_case, get_path_to_resource
 import textwrap
-import sys
-import os
 import argparse
+import sys
 
-dirname = os.path.dirname(__file__)
-font_dir = os.path.join(dirname, "fonts")
+ENGLISH_FONT = "NotoSerifCJKjp-ExtraLight.otf"
 
 
 class MySlideShow(tk.Tk):
@@ -87,7 +87,7 @@ class MySlideShow(tk.Tk):
             font=unicode_font,
         )
 
-        font_family = os.path.join(font_dir, "NotoSerifCJKjp-ExtraLight.otf")
+        font_family = get_path_to_resource(foldername="fonts", filename=ENGLISH_FONT)
         english_offset = 0
         for e in english_list:
             unicode_font = ImageFont.truetype(font_family, 50)
@@ -130,7 +130,6 @@ class MySlideShow(tk.Tk):
         # set window size after scaling the original image up/down to fit screen
         # removes the border on the image
         self.wm_geometry("{}x{}+{}+{}".format(scr_w, scr_h, 0, 0))
-
         self.image_stack.append(ImageTk.PhotoImage(image))
         self.image_stack = self.image_stack[-10:]
 
@@ -146,10 +145,9 @@ if __name__ == "__main__":
     iso_id = args.lang
 
     if iso_id == None:
-        instructions = [" "]
-        for code in LANGUAGES.keys():
-            instructions.append(" - ".join([code, str(LANGUAGES[code]())]))
-        print("\n".join(instructions))
+        print(
+            "\ncmn - Mandarin\njpn - Japanese\nrus - Russian\nspa - Spanish\nyue - Cantonese\narb - Arabic\nben - Bengali\nfra - French\ndeu - German\nhin - Hindi\nind - Indonesian\nkor - Korean\nmar - Marathi\npor - Portuguese\nswa - Swahili\ntam - Tamil\ntel - Telugu\ntur - Turkish\nurd - Urdu"
+        )
         iso_id = input("\nEnter language code:\n")
 
     iso_id = iso_id.lower()
